@@ -1,0 +1,7 @@
+{{ $title := .Title }}
+{{ $suffix := printf " | %s" .Site.Title }}
+{{ $final_title := $title }}
+{{ if not .IsHome }}
+    {{ $final_title = add $final_title $suffix }}
+{{ end }}    
+{{ return $final_title }}

@@ -1,0 +1,12 @@
+<a href="{{ .Permalink }}" class="big-link">
+	<article class='article-summary'>
+		{{ if .Params.image }}
+			<img src="{{.Params.image | absURL}}" />
+		{{ end }}
+
+		<h2> {{.Title }} </h2>
+
+		<!-- Display summary, but with HTML tags safely removed, and an ellipsis if truncated -->
+		<p>{{ .Summary | plainify | safeHTML }}{{ if .Truncated }} ... {{end}} </p>
+	</article>
+</a>

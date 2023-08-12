@@ -1,0 +1,45 @@
+@use "critical_modules/globals" as g;
+
+.official-url {
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.5);
+	font-size: 16px;
+
+	span {
+		opacity: 0.75;
+	}
+
+	a {
+		display: inline-block;
+		margin: 0px;
+		border: none;
+		text-decoration: 1px solid underline;
+		opacity: 0.75;
+		transition: opacity 0.2s;
+	}
+
+	a:hover {
+		opacity: 1.0;
+	}
+
+	&.large-version {
+		display: block;
+	}
+
+	&.small-version {
+		display: none;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	@media all and (max-width: g.$cutoff2) {
+		&.large-version {
+			display: none;
+		}
+
+		&.small-version {
+			display: block;
+		}
+	}
+}

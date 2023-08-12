@@ -1,0 +1,45 @@
+@use "critical_modules/globals" as g;
+
+/* General (body) */
+body {
+	font-size: 21px;
+	font-family: g.$body-font-stack;
+	background-color: #492c1d; /*#705445;*/
+	color: #FFE4D9;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: g.$header-font-stack;
+	font-weight: 500;
+}
+
+h1 {
+	margin-top: 5px;
+	font-size: max(6vw, 64px);
+}
+
+h2 {
+	font-size: max(4.1vw, 48px);
+}
+
+h3 {
+	font-size: max(3vw, 30px);
+}
+
+/* Links */
+a {
+	color: white;
+}
+
+p, li {
+	a {
+		font-style: italic;
+	}
+}
+
+blockquote {
+	border-left: 0.25em solid rgba(255,255,255,0.66);
+    padding-left: 0.5em;
+    font-style: italic;
+}

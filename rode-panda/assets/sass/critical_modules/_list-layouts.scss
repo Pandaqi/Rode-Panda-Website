@@ -1,0 +1,15 @@
+// Layout for a list page (taxonomy, overview, front page, etc.)
+.list-page-content-container {
+	margin: auto;
+	max-width: 960px;
+	padding: 20px;
+
+	h1, h2, h3, h4, h5, h6 {
+		text-align: center;
+	}
+
+	div {
+		max-width: 600px;
+		margin: auto;
+	}
+}

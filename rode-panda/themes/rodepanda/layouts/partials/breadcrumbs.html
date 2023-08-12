@@ -1,0 +1,47 @@
+<nav id="breadcrumbs">
+    <a href='{{  "/" | absLangURL }}' class="home-button"><img src="/theme/favicon.png" width="32" height="32" loading="lazy" encoding="async" /></a>
+    {{ $context := . }}
+
+    {{ .Scratch.Set "permalinkparts" (split .RelPermalink "/") }}
+    {{ $parts := .Scratch.Get "permalinkparts" }}
+    {{ $num_parts := sub (len $parts) 2 }}
+    {{ range $index, $part := (.Scratch.Get "permalinkparts") }}
+        {{ range $i, $num := (seq 10) }}
+            {{ if ge $index $i }}
+                {{ if eq $i 0 }}
+                    {{ $.Scratch.Set "url" (index ($.Scratch.Get "permalinkparts") $i) }}
+                {{ else }}
+                    {{ $.Scratch.Add "url" (print (index ($.Scratch.Get "permalinkparts") $i) "/") }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ if gt (len $part ) 0 }}
+            {{ if and (ne $part "en") (ne $part "nl") }}
+                {{- $url := printf "/%s" ($.Scratch.Get "url") -}}
+                {{- $full_url := printf "%s_index.md" $url -}}
+                {{- $page := $context.GetPage $full_url -}}
+
+                / 
+                <a href="{{ $url }}" class="breadcrumb-link">
+                    <span class="breadcrumb-icon">
+                        {{ $final_part := eq $index $num_parts }}
+                        {{ $thumb := $context.Params.thumb }}
+                        {{ if and $final_part $thumb }}
+                            <span class="breadcrumb-icon"><img src="/webp/{{ $thumb }}" /></span>
+                        {{ else }}
+                            {{- $thumb_title := $part -}}
+                            <span class="thumb-metadata thumb-metadata-icon-{{ $thumb_title }} breadcrumb-icon"></span>
+                        {{ end }}
+                    </span>
+                    <span class="breadcrumb-text">
+                        {{ $part | humanize }}
+                    </span>
+                </a>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+
+    <div class="breadcrumb-button-container">
+        <button id="gotoBottomBtn">{{ i18n "goto-bottom" }}</button>
+    </div>
+</nav>

@@ -1,0 +1,98 @@
+# Translations for HOME PAGE
+[homepage-feature]
+	other = "My latest project is "
+
+[home-message-1]
+	other = '<p>This is the portfolio of <a href="/en/info/about">Red Panda!</a></p><p>Take a journey through my numerous works.</p><p>Or <a href="/en/info/contact">contact me</a> for your next project.</p>'
+
+[home-message-2]
+	other = '<p>I help with ...</p><ul><li><a href="/en/categories/writing">Writing</a></li><li><a href="/en/categories/programming">Programming</a></li><li><a href="/en/categories/design">Design</a></li><li><a href="/en/categories/music">Music</a></li></ul><p>Games (analog or digital) and Books are my biggest areas of expertise.</p>'
+
+[home-message-3]
+	other = '<p>This website connects <em>all</em> my work. Each page is a summary and a link to the &ldquo;official page&rdquo;.</p><p>I have separate websites for each major area:</p><ul><li><a href="https://tiamopastoor.com">Writing (Tiamo Pastoor)</a></li><li><a href="https://pandaqi.com">Games (Pandaqi)</a></li><li><a href="https://eltroubadour.com">Music (El Troubadour)</a></li></ul>'
+
+# Misc
+[no-results-message]
+	other = "<p>Sorry, there are no results here.</p><p>That doesn't necessarily mean there are no projects of this type. They might simply be stashed somewhere else.</p><p>For example, a picture book involves both <em>writing</em> and <em>design</em>.</p>"
+
+# Translations for FOOTER
+[language-picker]
+	other = 'Switch language'
+
+[goto-top]
+	other = 'Go to top'
+
+[goto-bottom]
+	other = 'Go to bottom'
+
+[random-project]
+	other = 'Random project'
+
+[latest-project]
+	other = 'Latest project'
+
+[main-websites]
+	other = 'My websites'
+
+# Translations for METADATA
+[official-page]
+	other = 'Official page'
+
+[official-page-explanation]
+	other = 'official page for this project'
+
+[professional]
+	other = 'professional'
+
+[hobby]
+	other = 'hobby'
+
+[unfinished]
+	other = 'unfinished'
+
+[own-project]
+	other = 'own project'
+
+[assignment]
+	other = 'assignment'
+
+[ongoing]
+	other = 'ongoing'
+
+# Translations for BREADCRUMBS
+[tags]
+	other = 'tags'
+
+[categories]
+	other = 'categories'
+
+[nl]
+	other = 'nederlands'
+
+[en]
+	other = 'english'
+
+# Translations for CATEGORIES and TAGS
+[writing]
+	other = 'writing'
+
+[music]
+	other = 'music'
+
+[design]
+	other = 'design'
+
+[programming]
+	other = 'programming'
+
+[picturebook]
+	other = 'picturebook'
+
+[videogame]
+	other = 'videogame'
+
+[boardgame]
+	other = 'boardgame'
+
+[website]
+	other = 'website'

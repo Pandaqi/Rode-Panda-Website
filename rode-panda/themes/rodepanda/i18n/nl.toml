@@ -1,0 +1,98 @@
+# Translations for HOME PAGE
+[homepage-feature]
+	other = "Mijn laatste project is "
+
+[home-message-1]
+	other = '<p>Dit portfolio is van <a href="/nl/info/over/">Rode Panda!</a></p><p>Ga op avontuur door mijn vele werken.</p><p>Of <a href="/nl/info/contact">contacteer mij</a> voor uw volgende project.</p>'
+
+[home-message-2]
+	other = '<p>Ik kan helpen met ...</p><ul style="margin-bottom:20px;"><li><a href="/nl/categories/schrijven">Schrijven</a></li><li><a href="/nl/categories/programmeren">Programmeren</a></li><li><a href="/nl/categories/ontwerpen">Ontwerpen</a></li><li><a href="/nl/categories/muziek">Muziek</a></li></ul><p>Spellen (analoog of digitaal) en Boeken zijn mijn belangrijkste werkgebieden.</p>'
+
+[home-message-3]
+	other = '<p>Deze website verbindt <em>al</em> mijn werk. Elke pagina is een samenvatting en een link naar de "officiële pagina".</p><p>Mijn belangrijkste werkgebieden hebben ook hun eigen website:</p><ul><li><a href="https://tiamopastoor.com">Schrijven (Tiamo Pastoor)</a></li><li><a href="https://pandaqi.com">Spellen (Pandaqi)</a></li><li><a href="https://eltroubadour.com">Muziek (El Troubadour)</a></li></ul>'
+
+# Misc
+[no-results-message]
+	other = "<p>Sorry, hier zijn geen resultaten.</p><p>Dat betekent niet per sé dat er geen projecten van dit type zijn. Ze kunnen ook simpelweg ergens anders zijn neergezet.</p><p>Bijvoorbeeld, een prentenboek zou in zowel de categorie <em>schrijven</em> als <em>ontwerpen</em> passen.</p>"
+
+# Translations for FOOTER
+[language-picker]
+	other = 'Taal veranderen'
+
+[goto-top]
+	other = 'Terug naar boven'
+
+[goto-bottom]
+	other = 'Ga naar beneden'
+
+[random-project]
+	other = 'Willekeurig project'
+
+[latest-project]
+	other = 'Laatste project'
+
+[main-websites]
+	other = 'Mijn websites'
+
+# Translations for METADATA
+[official-page]
+	other = 'Officiële pagina'
+
+[official-page-explanation]
+	other = 'de officiële pagina voor dit project'
+
+[professional]
+	other = 'professioneel'
+
+[hobby]
+	other = 'hobby'
+
+[unfinished]
+	other = 'niet afgemaakt'
+
+[own-project]
+	other = 'eigen project'
+
+[assignment]
+	other = 'in opdracht'
+
+[ongoing]
+	other = 'nog steeds bezig'
+
+# Translations for BREADCRUMBS
+[tags]
+	other = 'tags'
+
+[categories]
+	other = 'categorieën'
+
+[nl]
+	other = 'nederlands'
+
+[en]
+	other = 'english'
+
+# Translations for CATEGORIES and TAGS
+[writing]
+	other = 'schrijven'
+
+[music]
+	other = 'muziek'
+
+[design]
+	other = 'ontwerpen'
+
+[programming]
+	other = 'programmeren'
+
+[picturebook]
+	other = 'prentenboek'
+
+[videogame]
+	other = 'computerspel'
+
+[boardgame]
+	other = 'bordspel'
+
+[website]
+	other = 'website'

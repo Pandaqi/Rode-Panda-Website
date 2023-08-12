@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'RodePanda';
+	src: url("/theme/rodepanda.woff2") format('woff2'),
+		 url("/theme/rodepanda.woff") format('woff');
+	
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+$body-font-stack: 'Vollkorn', Calibri, Georgia, serif;
+$header-font-stack: 'RodePanda', Georgia, serif;
+
+$grid-item-size: 120;
+$grid-gap: 20;
+
+$small-grid-item-size: 80;
+$small-grid-gap: 20;
+
+$dark-link-gradient: linear-gradient(45deg, #FFCCAA, #AACCFF); /* for use on dark backgrounds; near-black text */
+$bright-link-gradient: linear-gradient(45deg, #884422, #224488); /* for use on bright backgrounds; near-white text */
+
+$cutoff0: 1380px;
+$cutoff1: 960px;
+$cutoff2: 660px;
+$cutoff3: 400px; 
+
+$item-mask-url: url(/theme/grid_item_mask.webp);
+$text-block-url: url(/theme/grid_text_block.webp);
+
+$icons-url: url(/theme/metadata_icons.webp);
+$icons-url-bigger: url(/theme/metadata_icons@2x.webp);
+
+$metadata-order: "writing", "music", "design", "programming", "instrumental", "singer-songwriter", "published", "tutorials", "stories", "invention", "collection", "picturebook", "website", "boardgame", "videogame", "education", "theatre", "fiction", "non-fiction", "editorial", "miscellaneous";
+$metadata-order-nl: "schrijven", "muziek", "ontwerpen", "programmeren", "instrumentaal", "singer-songwriter", "gepubliceerd", "tutorials", "verhalen", "uitvinding", "collectie", "prentenboek", "website", "bordspel", "computerspel", "onderwijs", "theater", "fictie", "non-fictie", "editorial", "overig";
+
+$metadata-color-order: #68B442, #A737E6, #4276BC, #FF3100, #A737E6, #A737E6, 
+#68B442, #68B442, #68B442, #C1CF35, #CF8935, #2E9A83, #FF001E, #2E9A83, #FF001E, #FD00FF,
+#2E329A, #68B442, #68B442, #2E329A, #CF8935;

@@ -1,0 +1,100 @@
+@use "sass:math";
+
+@use "critical_modules/globals" as g;
+
+/* Grid */
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, g.$grid-item-size + 0px);
+	justify-content: center;
+	grid-gap: g.$grid-gap + 0px;
+
+	@media all and (max-width: g.$cutoff3) {
+		grid-template-columns: repeat(auto-fit, g.$small-grid-item-size + 0px);
+	}
+
+	.grid-item {
+
+		img {
+			width: 100%;
+			height: 100%;
+
+			max-width: 100%;
+		}
+	}
+
+	.item-text-container {
+		.text-block {
+			font-size: 18px;
+
+			@media all and (max-width: g.$cutoff3) {
+				font-size: 14px;
+			}
+		}
+	}
+
+	@mixin icon($offset:0) {
+		background-position-x: $offset;
+	}
+	
+	/* Resize classes */
+	@mixin resize($val: 1) {
+		width: g.$grid-item-size * $val + g.$grid-gap * ($val - 1) + 0px;
+		height: g.$grid-item-size * $val + g.$grid-gap * ($val - 1) + 0px;
+	
+		grid-column: span $val;
+		grid-row: span $val;
+
+		.grid-item-metadata {
+			font-size: (0.5 * $val) + 0em;
+		}
+
+		@media all and (max-width: g.$cutoff3) {
+			width: g.$small-grid-item-size * $val + g.$small-grid-gap * ($val - 1) + 0px;
+			height: g.$small-grid-item-size * $val + g.$small-grid-gap * ($val - 1) + 0px;
+		}
+	}
+	
+	@mixin resize_asym($x: 1, $y: 1) {
+		width: g.$grid-item-size * $x + g.$grid-gap * ($x - 1) + 0px;
+		height: g.$grid-item-size * $y + g.$grid-gap * ($y - 1) + 0px;
+	
+		grid-column: span $x;
+		grid-row: span $y;
+		
+		background-size: (math.div(600, $x) + 0%) (math.div(100, $y) + 0%) !important;		/* 3,2 => 200% 50% */
+
+		@media all and (max-width: g.$cutoff3) {
+			width: g.$small-grid-item-size * $x + g.$small-grid-gap * ($x - 1) + 0px;
+			height: g.$small-grid-item-size * ($y+1) + g.$small-grid-gap * ($y + 1 - 1) + 0px;
+
+			grid-column: span $x;
+			grid-row: span ($y + 1);
+			
+			background-size: (math.div(600, $x) + 0%) (math.div(100, $y + 1) + 0%) !important;
+		}
+	}
+	
+	@mixin resize-hover($val: 1) {
+		transform: scale(1.0 + math.div(0.5, $val));
+	}
+	
+	.item-resize-1 { @include resize(1); }
+	.item-resize-1:hover { @include resize-hover(1); }
+	
+	.item-resize-2 { @include resize(2); }
+	.item-resize-2:hover { @include resize-hover(2); }
+	
+	.item-resize-3 { @include resize(3); }
+	.item-resize-3:hover { @include resize-hover(3); }
+	
+	.item-resize-landscape { @include resize_asym(3, 2); }
+
+	/* Masks */
+	/* This is a white MASK. So, all parts where this image is transparent will show the "background-color" property of this node */
+	/* These masks just look slightly different; the item picks a random one on load */
+	.item-mask-1 { @include icon(0); }
+	.item-mask-2 { @include icon(-100%); }
+	.item-mask-3 { @include icon(-200%); }
+	.item-mask-4 { @include icon(-300%); }
+}

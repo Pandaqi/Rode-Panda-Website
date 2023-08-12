@@ -1,0 +1,35 @@
+<head>
+    <meta charset="utf-8">
+
+    <!-- Basic metadata stuff -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+
+    <!-- OpenGraph Tags included, only on articles -->
+    {{ if .Summary }}
+	    <meta property="og:type" content="article" />
+		<meta property="og:title" content="{{ .Title }}" />
+		<meta property="og:description" content="{{ .Summary }}" />
+		<meta property="og:image" content="{{ .Params.thumb }}" />
+		<meta property="og:url" content="{{ .Permalink }}" />
+		<meta property="og:site_name" content="Rode Panda | Portfolio" />
+	{{ end }}
+
+    <!-- Only load critical CSS first, rest comes after it (external spritesheet) -->
+    {{ $options := (dict "targetPath" "css/critical.css" "outputStyle" "compressed" "transpiler" "dartsass") }}
+    {{ $crit_style := resources.Get "sass/critical.scss" | resources.ToCSS $options }}
+    <link rel="stylesheet" type="text/css" href="{{ $crit_style.RelPermalink }}">
+
+    <link rel="icon"  type="image/png" href="{{ .Site.Params.favicon | absURL }}">
+
+    <!-- Original fonts: Laila (headings), Actor (main/body) -->
+    <!-- New Fonts: Rode Panda (headings; custom), Vollkortn (main/body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <noscript>
+	   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    </noscript>
+    
+	<!-- Display correct (perhaps concatenated) site title -->
+    <title>{{ partial "func/get-site-title.html" . }}</title>
+</head>

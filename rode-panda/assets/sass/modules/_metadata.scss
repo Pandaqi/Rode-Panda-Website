@@ -1,0 +1,104 @@
+@use "sass:map";
+@use "sass:list";
+
+@use "critical_modules/globals" as g;
+
+/* Metadata (underneath single posts) */
+.layout-horizontal .metadata {
+	justify-content: start;
+}
+
+.metadata {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 5px;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+	
+	.taxonomy-item {
+		height: 32px;
+		transition: transform 0.3s;
+	}
+
+	.taxonomy-item:hover {
+		transform: scale(1.5);
+	}
+
+	.metadata-text {
+		background-color: rgba(0,0,0,0.5);
+		padding: 5px;
+		border-radius: 5px;
+		font-size: 12px;
+		height: 25px;
+	}
+}
+
+/* Metadata icons */
+@mixin icon($offset:0) {
+    background-position-x: $offset;
+}
+
+.metadata-icon {
+    width: 32px;
+    height: 32px;
+    background-image: g.$icons-url;
+    background-size: cover; 
+    display: inline-block;
+
+    filter: drop-shadow(0 0 2px black);
+}
+
+.thumb-metadata {
+    background-image: g.$icons-url-bigger;
+    background-size: cover;
+}
+
+.thumb-metadata {
+    align-items: end !important;
+
+    span {
+        background-color: rgba(0,0,0,0.5);
+        color: #FFF;
+        padding: 2px;
+        border-radius: 3px;
+        margin-bottom: 4px;
+
+        mix-blend-mode: overlay;
+    }
+}
+
+// > English
+@for $i from 1 through length(g.$metadata-order) {
+    $val: list.nth(g.$metadata-order, $i);
+
+    .icon-#{$val} {
+        @include icon( -1 * ($i - 1) * 32 + 0px);
+    }
+
+    .thumb-metadata-icon-#{$val} {
+        @include icon( -1 * ($i - 1) * 100 + 0%);
+    }
+
+    a.item-type-no-thumbnail-#{$val} {
+        background-color: list.nth(g.$metadata-color-order, $i);
+    }
+}
+
+// > Dutch
+@for $i from 1 through length(g.$metadata-order-nl) {
+    $val: list.nth(g.$metadata-order-nl, $i);
+
+    .icon-#{$val} {
+        @include icon( -1 * ($i - 1) * 32 + 0px);
+    }
+
+    .thumb-metadata-icon-#{$val} {
+        @include icon( -1 * ($i - 1) * 100 + 0%);
+    }
+
+    a.item-type-no-thumbnail-#{$val} {
+        background-color: list.nth(g.$metadata-color-order, $i);
+    }
+}

@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<nav class="grid">
+	{{ $full_list := sort .Site.RegularPages .Params.Date "desc" | first 90 }}
+	{{ $counter_jump_size := 5 }}
+	{{ $counter := $counter_jump_size }}
+	{{ range $full_list }}
+		{{ $temp_counter := 0 }}
+		{{ if .Params.ongoing }}
+			{{ $temp_counter = math.Round (mul $counter 0.5) }}
+		{{ else }}
+			{{ $counter = add $counter $counter_jump_size }}
+			{{ $temp_counter = $counter }}
+		{{ end }}
+
+		{{ .Scratch.Set "counter" $temp_counter }}
+		{{ partial "grid-summary.html" . }}
+	{{ end }}
+
+	{{ .Scratch.Set "counter" -1 }}
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-1") }}
+
+	{{ .Scratch.Set "counter" (math.Round (mul 0.25 $counter)) }}
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-2") }}
+
+	{{ .Scratch.Set "counter" (math.Round (mul 0.5 $counter)) }}
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-3") }}
+
+</nav>
+
+<!-- Iets dat de metadata icoontjes uitlegt? -->
+
+{{ end }}

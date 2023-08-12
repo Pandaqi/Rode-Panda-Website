@@ -1,0 +1,30 @@
+<picture>
+	{{ $img_url := .img_url }}
+	{{ $alt := (replace $img_url ".webp" "") | humanize }}
+	{{ $full_url := (add "/static/webp/" ($img_url | safeURL)) }}
+	{{ if not (fileExists $full_url) }}
+		{{ $placeholder_type := "placeholder" }}
+		{{ if in $img_url "header" }}
+			{{ $placeholder_type = "placeholder-header" }}
+		{{ end }}
+
+		{{ $full_url = printf "/static/webp/%s.webp" $placeholder_type }}
+		{{ $img_url = printf "%s.webp" $placeholder_type }}
+	{{ end }}
+	{{ $img := imageConfig $full_url }}
+
+	{{ $checkable_avif_url := (replace $full_url "webp" "avif") }}
+	{{ if fileExists $checkable_avif_url }}
+		<source srcset='/avif/{{ replace .img_url ".webp" ".avif"}}' type="image/avif" />
+	{{ end }}
+
+	<img 
+		src="/webp/{{ $img_url }}" 
+		loading="lazy" 
+		decoding="async" 
+		alt='{{ $alt }}' 
+		title='{{ $alt }}'
+		width='{{ $img.Width }}'
+		height='{{ $img.Height }}' 
+	/>
+</picture>

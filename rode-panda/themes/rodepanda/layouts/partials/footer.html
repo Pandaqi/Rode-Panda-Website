@@ -1,0 +1,104 @@
+<footer id="footer">
+	<div class="footer-image">
+		<picture>
+			<!-- No AVIF; didn't make it smaller -->
+			<source srcset="/theme/webp/testfooter_mobile.webp" media="(max-width: 660px)" />
+			<img src="/theme/webp/testfooter.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" />
+		</picture>
+	</div>
+
+	<div class="footer-container">
+		<!-- Switch language -->
+		<aside class="footer-widget">
+			{{ partial "language_picker.html" . }}
+
+			<!-- Category overview -->
+			<!-- REMARK: no need to translate these with i18n, as they already ARE local to language -->
+			<h3>{{ i18n "categories" | humanize }}</h3>
+			<nav class="taxonomy-cloud">
+				<ul>
+					{{ range $key, $value := .Site.Taxonomies.categories }}
+						{{ $url := printf "/categories/%s" $key | relLangURL }}
+						<li><a class="fake-button" href="{{ $url }}">{{ $key | humanize }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+		</aside>
+
+		<!-- Tag overview -->
+		<aside class="footer-widget">
+			<h3>{{ i18n "tags" | humanize }}</h3>
+			<nav class="taxonomy-cloud">
+				<ul>
+					{{ range $key, $value := .Site.Taxonomies.tags }}
+						{{ $url := printf "/tags/%s" $key | relLangURL }}
+						<li><a class="fake-button" href="{{ $url }}">{{ $key | humanize }}</a></li>
+					{{ end }}
+				</ul>
+			</nav>
+		</aside>
+
+		<!-- Latest/highlighted project -->
+		<aside class="footer-widget">
+			<h3>{{ i18n "latest-project" }}</h3>
+			<div>
+				{{ $latest_post := index .Site.RegularPages 0 }}
+				<p>
+					{{ i18n "homepage-feature" }}
+					<a href="{{ $latest_post.RelPermalink }}">{{ $latest_post.Title }}</a>.
+				</p>
+				<p>{{ $latest_post.Params.blurb }}</p>
+			</div>
+
+			<!-- Links to my major websites -->
+			<h3>{{ i18n "main-websites" | humanize }}</h3>
+			<nav class="taxonomy-cloud">
+				<ul>
+					<li><a class="fake-button" href="https://tiamopastoor.com">Tiamo Pastoor (Books)</a></li>
+					<li><a class="fake-button" href="https://pandaqi.com">Pandaqi (Games)</a></li>
+					<li><a class="fake-button" href="https://pandaqi.com/tutorials">Pandaqi (Tutorials)</a></li>
+					<li><a class="fake-button" href="https://eltroubadour.com">El Troubadour (Music)</a></li>
+				</ul>
+			</nav>
+		</aside>
+
+		<!-- Go to top/header -->
+		<aside class="footer-widget">
+			<h3>Bonus</h3>
+			<button id="gotoTopBtn" style="display:block;">{{ i18n "goto-top" }}</button>
+			<button id="randProjBtn" style="display:block;">{{ i18n "random-project" }}</button>
+		</aside>
+
+	</div>
+</footer>
+
+<!-- Deferred loading of non-critical CSS -->
+<!-- @NOTE: Comment this out to test what it looks like WITHOUT this -->
+{{ if not .Site.Params.testOnlyCriticalStyle }}
+	{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "transpiler" "dartsass") }}
+	{{ $style := resources.Get "sass/style.scss" | resources.ToCSS $options }}
+	<script async defer>
+		const head = document.getElementsByTagName("head")[0];
+		let cssLink = document.createElement("link");
+	
+		cssLink.rel = "stylesheet";
+		cssLink.href = "{{ $style.RelPermalink }}";
+		cssLink.type = "text/css";
+	
+		head.appendChild(cssLink);
+	</script>
+{{ end }}
+
+{{- $all_pages := (where .Site.RegularPages "Section" "!=" "") | shuffle | first 20 -}}
+{{- $list := slice }}
+{{- range $all_pages -}}
+    {{- $list = $list | append .RelPermalink -}}
+{{- end -}}
+{{- $list := delimit $list "," }}
+
+<span style="display:none;" id="hidden-hugo-metadata" data-pages="{{ $list }}"></span>
+
+<!-- Deferred loading of Fonts = huge speed boost -->
+{{ $js := resources.Get "js/deferred_script.js" | resources.Minify }}
+<script src="{{ $js.RelPermalink }}" async defer></script>
+

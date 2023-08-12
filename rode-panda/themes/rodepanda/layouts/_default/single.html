@@ -1,0 +1,85 @@
+{{ define "main" }}
+	
+	{{ $official_url := .Params.official }}
+	{{ $official_url_notice := or $official_url "bestaat niet, sorry :(" }}
+	{{ $layout_dir := or .Params.layoutDir "vertical" }}
+
+	<article class="content-container layout-{{ $layout_dir }}">
+		{{if .Params.thumb }}
+			
+		    <section class="post-header">
+		    	{{ $img_url := "" }}
+		    	{{ if .Params.thumbasheader }}
+		    		{{ $img_url = .Params.thumb }}
+		    	{{ else }}
+		    		{{ $img_url = replace .Params.thumb ".webp" "-header.webp" }}
+		    	{{ end }}
+		    	{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
+		    </section>
+		{{ end }}
+
+	    <div class="markdown-content-block">
+	    	<section>
+		   		{{ if not .Params.hideUrl }}
+		   			<a href="{{ $official_url }}" class="header-link"><h1>{{ .Title }}</h1></a>
+
+			   		<div class="official-url large-version">
+			   			<span>{{ i18n "official-page" }}: </span><a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ $official_url_notice }}</a>
+			   		</div>
+			   		<div class="official-url small-version">
+			   			<a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ i18n "official-page-explanation" | humanize }}</a>
+			   		</div>
+			   	{{ else }}
+			   		<h1>{{ .Title }}</h1>
+			   	{{ end }}
+				
+				{{ .Content }}
+			</section>
+
+			{{ if not .Params.hideMetadata }}
+				<section class="metadata">
+					<time class="metadata-text date">
+						{{ .Date.Format "January 2, 2006" }}
+					</time>
+
+					{{ if .Params.ongoing }}
+						<span class="metadata-text ongoing-project">{{ i18n "ongoing" }}</span>
+					{{ end }}
+
+					{{ $type := "professional" }}
+					{{ if .Params.type }}
+						{{ $type = .Params.type }}
+					{{ end }}
+					<span class="metadata-text intended-type">{{ i18n $type }}</span>
+
+					{{ if .Params.unfinished }}
+						<span class="metadata-text status">{{ i18n "unfinished" }}</span>
+					{{ end }}
+
+					{{ $assignment := "own-project" }}
+					{{ if .Params.assignment }}
+						{{ $assignment = "assignment" }}
+					{{ end }}
+
+					<span class="metadata-text assignment">{{ i18n $assignment }}</span>
+
+					{{ range $index, $item := .Params.categories }}
+						<a class="taxonomy-item" title="{{ $item }}" href={{ printf "/categories/%s" $item | relLangURL }}>
+							<span class="metadata-icon icon-{{ $item }}"></span>
+						</a>
+					{{ end }} 
+
+					{{ range $index, $item := .Params.tags }}
+						<a class="taxonomy-item" title="{{ $item }}" href={{ printf "/tags/%s" $item | relLangURL }}>
+							<span class="metadata-icon icon-{{ $item }}"></span>
+						</a>
+					{{ end }} 
+				</div>
+			</section>
+		{{ end }}
+
+		<div class="horizontal-filler">
+		</div>
+	</article>
+
+{{ end }}

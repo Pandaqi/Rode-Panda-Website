@@ -1,0 +1,53 @@
+{{ $rand_mask := index (seq 4 | shuffle) 0 }}
+{{ $col := or .Params.color "default" }}
+{{ $resize := or .Params.resize 1 }}
+{{ $safe_title := replaceRE "(\\s)" "" (.Params.Title | lower) }}
+
+{{ $img_url := .Params.thumb }}
+{{ $item_type := printf "item-type-no-thumbnail-%s" $safe_title }}
+{{ if $img_url }}
+	{{ $item_type = "" }}
+{{ end }}
+
+{{ $thumb_bg_col := "" }}
+{{ if .Params.thumb_bg }}
+	{{ $thumb_bg_col = printf "background-color:%s;" .Params.thumb_bg }}
+{{ end }}
+
+{{ $tooltip := (printf "%s: %s" .Title .Summary) | safeHTML }}
+
+<a href="{{ .Permalink }}" class="grid-item item-mask-{{ $rand_mask }} preselected-color-{{ $col }} item-resize-{{ $resize }} {{ $item_type }}" style='order: {{ .Scratch.Get "counter"}}' title="{{ $tooltip }}">
+	<div class="thumb-shadow"></div>
+
+	{{ if $img_url }}
+		<!-- Display thumbnail (WEBP default, use better format (AVIF) on supported browsers) -->
+		{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
+
+		<!-- To get some TEXT in here -->
+		<!-- @TODO: Enable this again, now properly -->
+		<span class="grid-item-metadata">
+			<h2>{{ .Title }}</h2>
+			<span>({{ .Section }})</span>
+		</span>
+
+		<!-- Loop through both categories and tags (in that order) -->
+		<!-- Display the icon for the first 4 (at most) -->
+		<span class="thumbnail-taxonomy-list">
+			{{if or .Params.categories .Params.tags }}
+				{{ $full_list := union .Params.categories .Params.tags }}
+				{{ range $index, $item := $full_list | first 3 }}
+					<span class="thumbnail-taxonomy-item">
+						<span title="{{ $item }}" class="metadata-icon icon-{{ $item }}"></span>
+					</span>
+				{{ end }} 
+			{{ end }}
+		</span>
+
+	{{ else }}
+		<div class="no-thumbnail-block thumb-metadata thumb-metadata-icon-{{ $safe_title }}">
+			<span>{{ .Params.Title }}</span>
+		</div>
+	{{ end }}
+
+	<div class="thumb-bg" style="{{ $thumb_bg_col | safeCSS }}" ></div>
+</a>

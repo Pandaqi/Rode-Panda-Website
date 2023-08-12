@@ -1,0 +1,45 @@
+baseurl         = "https://rodepanda.com"
+theme           = "rodepanda"
+title       	= "Rode Panda | Portfolio"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 30
+summaryLength 	= 18
+SectionPagesMenu = "main"
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.nl]
+    contentDir = 'content/dutch'
+    languageName = 'Nederlands'
+    title = 'Rode Panda | Portfolio'
+    weight = 2
+
+  [languages.en]
+    contentDir = 'content/english'
+    languageName = 'English'
+    title = 'Red Panda | Portfolio'
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  testOnlyCriticalStyle = false
+  title       = "Rode Panda"
+  subtitle    = "Freelance Artist"
+
+  favicon     = "theme/favicon.png"
+
+  description = "The portfolio of Rode Panda"
+  metaDescription = "Portfolio of the freelance artist Rode Panda, living in the Netherlands, working across many disciplines"
+  
+  pageNotFoundTitle = "404 - Page not found"
+  
+
+[permalinks]
+  post = "/:slug/"

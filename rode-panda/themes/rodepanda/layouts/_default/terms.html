@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section class="list-page-content-container">
+	<h1>{{ i18n (.Title | lower) }}</h1>
+	<div>
+		{{ .Content }}
+	</div>
+</section>
+
+	
+<nav class="grid">
+	{{ $full_list := .Paginator.Pages }}
+	{{ range $full_list }}
+		{{ partial "grid-summary.html" . }}
+	{{ end }}
+</nav>
+
+<nav class="page-navigation">
+	{{ template "_internal/pagination.html" . }}
+</nav>
+
+{{ end }}

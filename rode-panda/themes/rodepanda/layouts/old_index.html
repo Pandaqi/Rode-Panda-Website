@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<!-- Knowing what I know now, this code should've been much simpler -->
+<!-- No need to split into multiple lists; we're going to manipulate position using the CSS "order" anyways! -->
+<div class="grid">
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-1") }}
+
+	{{ $full_list := sort .Site.RegularPages .Params.Date "desc" }}
+	{{ $top_pages := $full_list | first 20 }}
+	{{ $middle_pages := $top_pages | symdiff ($full_list | first 40) }}
+	{{ $bottom_pages := ($full_list | first 40) | symdiff ($full_list | first 90) }}
+	
+	{{ $counter := 0 }}
+
+	{{ range $top_pages }}
+		{{ $counter = add $counter 5 }}
+		{{ .Scratch.Set "counter" $counter }}
+		{{ partial "grid-summary.html" . }}
+	{{ end }}
+
+	{{ $counter = add $counter 5 }}
+	{{ .Scratch.Set "counter" $counter }}
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-2") }}
+
+	{{ range $middle_pages }}
+		{{ $counter = add $counter 5 }}
+		{{ .Scratch.Set "counter" $counter }}
+		{{ partial "grid-summary.html" . }}
+	{{ end }}
+
+	{{ $counter = add $counter 5 }}
+	{{ .Scratch.Set "counter" $counter }}
+	{{ partial "grid-text.html" (dict "context" . "message" "home-message-3") }}
+
+	{{ range $bottom_pages }}
+		{{ $counter = add $counter 5 }}
+		{{ .Scratch.Set "counter" $counter }}
+		{{ partial "grid-summary.html" . }}
+	{{ end }}
+</div>
+
+<!-- Iets dat de metadata icoontjes uitlegt? -->
+
+{{ end }}

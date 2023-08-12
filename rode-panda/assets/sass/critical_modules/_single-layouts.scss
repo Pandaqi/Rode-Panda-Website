@@ -1,0 +1,87 @@
+// Different layout directions for general single (project) page
+@use "critical_modules/globals" as g;
+
+.layout-vertical {
+	margin: auto;
+
+	.post-header {
+		margin: auto;
+		text-align: center;
+
+		img {
+			max-height: 400px;
+			max-width: 100%;
+		}
+	}
+
+	.markdown-content-block {
+		margin: auto;
+	}
+}
+
+.layout-horizontal {
+
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	align-content: start;
+
+	.horizontal-filler {
+		width: min(600px, 100%);
+	}
+
+	.post-header {
+		img {
+			max-height: 800px;
+			max-width: min(100%, 660px);
+		}
+	}
+
+	@media all and (max-width: g.$cutoff1) {
+		.horizontal-filler {
+			display: none;
+		}
+
+		@media all and (max-width: g.$cutoff2) {
+			flex-wrap: wrap;
+	
+			.post-header {
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+}
+
+.layout-horizontal, .layout-vertical {
+	width: 100%;
+
+	.post-header {
+		padding: 20px;
+
+		img {
+			height: auto;
+			width: auto;
+		}
+	}
+
+	.markdown-content-block {
+		max-width: 666px;
+		padding-top: 6px;
+		padding-right: 10px;
+		padding-left: 10px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	}
+}
+
+.reversed-layout {
+	justify-content: end;
+
+	.post-header {
+		order: 1;
+	}
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}" xml:lang="{{ .Site.Language.Lang }}">
+    {{- partial "head.html" . -}}
+
+    {{ $col := or .Params.color "default" }}
+    <body class="preselected-dark-color-{{ $col }}">
+        {{- partial "header.html" . -}}
+        <main id="content">
+        {{- block "main" . }}{{- end }}
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

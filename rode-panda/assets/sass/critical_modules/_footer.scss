@@ -1,0 +1,20 @@
+@use "critical_modules/globals" as g;
+
+/* (Site) Footers */
+footer {
+	.footer-image {
+		overflow: hidden;
+		height: 20.5vw;
+		
+		@media all and (max-width: g.$cutoff2) {
+			height: 42vw;
+		}
+	}
+
+	.footer-container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		grid-gap: 40px;
+	}
+}

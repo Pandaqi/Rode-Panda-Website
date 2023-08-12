@@ -1,0 +1,38 @@
+@use "critical_modules/globals" as g;
+
+/* (Site) Headers */
+.big-header {
+	height: 20.4vw;
+	margin-bottom: -4vw;
+
+	@media all and (max-width: g.$cutoff2) {
+		height: 35vw;
+		margin-bottom: 0px;
+	}
+}
+
+.small-header {
+	height: 6.6vw;
+
+	@media all and (max-width: g.$cutoff2) {
+		height: 15vw;
+	}
+}
+
+img.sitewide-banner {
+	max-width: 100%;
+	height: auto;
+}
+
+img.banner-with-overlay {
+	position: absolute;
+	z-index: -1;
+}
+
+/* Breadcrumbs */
+#breadcrumbs {
+	display: flex;
+	text-align: center;
+	grid-gap: 5px;
+	justify-content: center;
+}

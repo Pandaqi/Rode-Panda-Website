@@ -1,0 +1,25 @@
+{{ $header_type := "big-header" }}
+{{ if not .IsHome }}
+	{{ $header_type = "small-header" }}
+{{ end }}
+
+<header class="{{ $header_type }}">
+	{{ if .IsHome }}
+    	<a id="gotoBottomBtn" class="header-logo-link" style="cursor:pointer;">
+			<picture>
+				<!-- No AVIF; didn't make it smaller -->
+				<source srcset="/theme/webp/testheader_mobile.webp" media="(max-width: 660px)" />
+				<!-- No AVIF; didn't make it smaller -->
+				<img src="/theme/webp/testheader.webp" loading="lazy" decoding="async" class="sitewide-banner" />
+			</picture>
+    	</a>
+	{{ else }}
+		<picture>
+			<!-- No AVIF; didn't make it smaller -->
+			<source srcset="/theme/webp/testheader_small_mobile.webp" media="(max-width: 660px)" />
+			<!-- No AVIF; didn't make it smaller -->
+			<img src="/theme/webp/testheader_small.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" />
+		</picture>
+		{{ partial "breadcrumbs.html" . }}
+	{{ end }}
+</header>

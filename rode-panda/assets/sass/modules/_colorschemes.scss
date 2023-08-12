@@ -1,0 +1,81 @@
+@use "sass:map";
+@use "sass:list";
+
+@use "critical_modules/globals" as g;
+
+/* 
+ * Color schemes 
+ * => (thumbnails, background, text, image hue rotate)
+ * => colors are "dark mode" by default (dark background, light text)
+ * => if key "bright" is defined, this is switched, which forces some other elements to switch as well
+ * => if key "gray" is defined, it ignores the hue (rotation) and applies the grayscale filter
+ */
+$colorschemes: (
+	"default": ("bg": #492c1d, "col": #FFE4D9, "huerot": 0,   "border": #000),
+	"red": 	   ("bg": #5b1313, "col": #ffd2d2, "huerot": 350, "border": #d81d1d),
+	"green":   ("bg": #0c4a0c, "col": #d9fdd9, "huerot": 90,  "border": #37a337),
+	"blue":    ("bg": #11344E, "col": #CBF3FF, "huerot": 200, "border": #2B6E9F),
+	"purple":  ("bg": #520f52, "col": #fbdcfb, "huerot": 270, "border": #812f81),
+	"pink":    ("bg": #90115f, "col": #ffbbeb, "huerot": 315, "border": #c7465c),
+	"bluedark":("bg": #1E114E, "col": #D6CBFF, "huerot": 230, "border": #313191),
+	"turquoise":("bg": #093e28, "col": #caf3e0, "huerot": 120, "border": #2d775b),
+	"lime":    ("bg": #4e810f, "col": #e9ffd3, "huerot": 60,  "border": #6d9418),
+	"yellow":  ("bg": #dfba2b, "col": #382a02, "huerot": 30,  "border": #717125, "bright": true),
+	"orange":  ("bg": #fc843c, "col": #492a03, "huerot": 15,  "border": #e68910, "bright": true),
+	"brown":   ("bg": #572f05, "col": #f9e1bc, "huerot": 0,   "border": #7f320c),
+	"grayscale":("bg": #303030, "col": #ECECEC, "huerot": 0, "border": gray, "gray": true),
+	"beige": ("bg": #ffe0b0, col: #120c02, "huerot": 10, "border": #d2a96a, "bright": true )
+);
+
+@function grayscale($value) {
+	@return #{ "grayscale(" + $value + ")" };
+}
+
+@mixin colorscheme($info: ()) {
+	background-color: map.get($info, "bg");
+	color: map.get($info, "col");
+
+	header, .footer-image {
+		@if map.has-key($info, "gray") {
+			filter: grayscale(100%);
+		} @else {
+			filter: hue-rotate( map.get($info, "huerot") + 0deg);
+		}
+	}
+}
+
+@each $name, $color in $colorschemes {
+	.preselected-color-#{$name} {
+		background-color: map.get($color, "border");
+
+		.thumb-bg {
+			background-color: map.get($color, "bg");
+		}
+	}
+	
+	.preselected-dark-color-#{$name} {
+		@include colorscheme($color);
+
+		@if map.has-key($color, "bright") {
+			.official-url {
+				background-color: rgba(255,255,255,0.5);
+			}
+
+			.metadata-text {
+				background-color: rgba(255,255,255,0.5);
+			}
+
+			p, li {
+				a:hover {
+					background-image: g.$bright-link-gradient;
+				}
+			}
+
+			.footer-container {
+				@media all and (max-width: g.$cutoff0) {
+					background-color: rgba(0,0,0,0.36);
+				}
+			}
+		}
+	}
+}

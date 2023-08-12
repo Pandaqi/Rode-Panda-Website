@@ -1,0 +1,67 @@
+@use "critical_modules/globals" as g;
+
+/* Pagination */
+ .pagination {
+	display: flex;
+	flex-wrap: wrap;
+	grid-gap: 20px;
+	justify-content: center;
+	font-size: 24px;
+	font-family: g.$body-font-stack;
+
+	margin: 0px;
+	padding: 0px;
+
+	margin-top: 40px;
+
+	li {
+		list-style: none;
+
+		a {
+			text-decoration: none;
+			padding: 20px;
+			display: block;
+			background-color: rgba(0,0,0,0.5);
+			color: white;
+
+			transition: transform 0.3s, filter 0.3s;
+		}
+
+		a:hover {
+			background-clip: unset;
+			-webkit-background-clip: unset;
+			-moz-background-clip: unset;
+			-webkit-text-fill-color: unset;
+			-moz-text-fill-color: unset;
+
+			filter: hue-rotate(90deg) drop-shadow(0 0 3px #333);
+
+			color: white;
+
+			background-image: linear-gradient(45deg,rgba(255,200,150,0.2), rgba(150,200,255,0.2));
+			transform: scale(1.25);
+		}
+	}
+
+	li.disabled, li.active {
+		a {
+			opacity: 0.5;
+			pointer-events: none;
+		}
+
+		a:hover {
+			background-image: none;
+			filter: none;
+			transform: none;
+		}
+	}
+
+	li.active {
+		a {
+			opacity: 1.0;
+			pointer-events: none;
+			background-color: rgba(255,200,150,.5);
+			color: #420;
+		}
+	}	
+}

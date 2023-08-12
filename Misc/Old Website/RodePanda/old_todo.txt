@@ -1,0 +1,23 @@
+== TO DO LIST ==
+
+BREADCRUMBS
+ => Breadcrumbs at the bottom of the page as well?
+
+ => I'd like to "build up" from the breadcrumbs to the main title
+ => The "homepage" one should just be the main logo (or another home symbol). 
+ => The current page should NOT be a link, and should have a red panda in front of it.
+
+HEADINGS:
+ => Find a good style for the main heading (<h1>) and smaller ones.
+ => I think I need to add some sort of branch or leaf pattern to "anchor" the heading and first paragraph.
+ => (The current typeface is fine, although it is a bit "underpowered" for a heading.)
+
+VARIETY
+ => Make more animals, nature elements, and perhaps animations/moving elements
+
+OTHER STUFF
+ => Maak een "compleet ontwerp" voor spek en bonen. 
+    => (Zodat ik kan laten zien wat mijn vaardigheden zijn. Ik wil dit eigenlijk een ontwerp van een zakelijke website maken, om te laten zien dat ik dat ook kan.)
+    => (Maar mijn idee van een aquarium met rondzwemmende vissen vond ik ook wel leuk eigenlijk.)
+ => Schrijf NDHU artikel over ontwerp van deze website ("Grafisch Ontwerp (Rode Panda)")
+

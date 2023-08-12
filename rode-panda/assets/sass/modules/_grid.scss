@@ -1,0 +1,163 @@
+@use "critical_modules/globals" as g;
+
+.grid {
+
+	/* Default (thumbnail) items */
+	.grid-item {
+		border-radius: 10px;
+		padding: 10px;
+		filter: drop-shadow(0 0 5px black);
+		position: relative;
+	
+		transition: transform 0.3s;
+	
+		border: none;
+	
+		background-image: g.$item-mask-url; 
+		background-size: cover;
+		
+		img {
+			border-radius: 5px;
+		}
+		
+		.thumb-shadow, .thumb-bg {
+			left: 10px;
+			right: 10px;
+			top: 10px;
+			bottom: 10px;
+			position: absolute;
+			border-radius: 5px;
+		}
+
+		.thumb-shadow {
+			box-shadow: inset 0 0 12px black;
+		}
+
+		.thumb-bg {
+			z-index: -2;
+		}
+
+		.grid-item-metadata, .thumbnail-taxonomy-list {
+			position: absolute;
+			left: 10px;
+			right: 10px;
+
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			align-items: center;
+			opacity: 0.0;
+		
+			transition: opacity 0.3s;
+		}
+
+		.grid-item-metadata {
+			top: 10px;
+			text-align: center;
+			flex-wrap: wrap;
+
+			background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0));
+
+			@media screen and (max-width: g.$cutoff3)
+			{
+				opacity: 1.0;
+			}
+
+			h2, span {
+				//mix-blend-mode: overlay;
+				//mix-blend-mode: luminosity; // @TODO: find something that always provides enough contrast
+				color: white;
+				//text-shadow: 0 0 3px #fff;
+				pointer-events: none;
+			}
+
+			h2 {
+				margin: 0;
+				padding: 0;
+				margin-top: 5px;
+				padding-left: 5px;
+				padding-right: 5px;
+				font-size: 1em;
+				//text-shadow: -2px -2px 3px #fff, 2px -2px 3px #fff, -2px 2px 3px #fff, 2px 2px 3px #fff;
+				text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+			}
+
+			span {
+				font-size: 0.66em;
+				line-height: 0.8em;
+				margin: 0;
+				margin-bottom: 1.75em;
+				padding: 0;
+				width: 100%;
+				font-style: italic;
+				opacity: 0.8;
+				//text-shadow: 0 0 5px #000;
+				text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+				//text-shadow: -1px -1px 1px #fff, 1px -1px 1px #fff, -1px 1px 1px #fff, 1px 1px 1px #fff;
+			}
+		}
+
+		.thumbnail-taxonomy-list {
+			bottom: 5px;
+		}
+
+		/* Textual (no thumbnail) items which are just a link to a TAG/CATEGORY/ETC. */
+		/* @IMPROV: Make this the same as a regular text block?? (Defined below) */
+		.no-thumbnail-block {
+			font-size: 14px; 
+		
+			display: flex; 
+		
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+		
+			background-color: #FDA;
+		
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.grid-item:hover {
+		z-index: 10000;
+		filter: drop-shadow(0 0 5px black) brightness(120%);
+
+		.thumbnail-taxonomy-list, .grid-item-metadata {
+			opacity: 1.0;
+		}
+	}
+
+	/* Textual (no-thumbnail) items with KNOWN text (front page mostly) */
+	.item-text-container {
+		background-color:#5e4235;
+		filter: drop-shadow(0 0 5px black);
+
+		&:hover {
+			filter: drop-shadow(0 0 5px black);
+		}
+
+		.text-block {
+			background-color: black;
+			color: black;
+			
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 10px;
+			bottom: 10px;
+		
+			padding: 10px;
+			
+			p {
+				margin-top: 0px;
+			}
+
+			a:hover {
+				background-image: g.$bright-link-gradient !important;
+			}
+
+			background-image: g.$text-block-url;
+		}
+	}
+}
