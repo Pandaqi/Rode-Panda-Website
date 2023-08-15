@@ -26,12 +26,12 @@ The biggest changes were:
 * Switched to a _static_ website under the hood => much faster, easier to maintain, the future of the internet (in my humble opinion)
 
 This article explains the changes and development **in Dutch**:
-* [Hoe ik mijn portfolio heb verbeterd (Rode Panda)](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/hoe-ik-mijn-portfolio-heb-verbeterd)
+* [Hoe ik mijn portfolio heb verbeterd (Rode Panda)](https://tiamopastoor.com/blog/2021/2021-10-03-hoe-ik-mijn-portfolio-heb-verbeterd/)
 
 These articles talk about "version 1" (how I designed it, the idea behind it, etc.) in Dutch:
-* [Grafisch Ontwerp ("Rode Panda")](https://nietdathetuitmaakt.nl/typische-tekeningen/grafisch-ontwerp-rode-panda/)
-* [Logo Design ("Rode Panda")](https://nietdathetuitmaakt.nl/typische-tekeningen/logo-ontwerp-rode-panda/)
+* [Grafisch Ontwerp ("Rode Panda")](https://tiamopastoor.com/blog/2019/2019-04-11-grafisch-ontwerp-rode-panda/)
+* [Logo Design ("Rode Panda")](https://tiamopastoor.com/blog/2019/2019-04-14-logo-ontwerp-rode-panda/)
 
 As the articles show, I had many ideas/mockups for the website. But the design I chose just had the best "nature" and "red panda" vibe to it. It was the most playful and vibrant. (As much as I love a good, clean, modern looking design ... it just doesn't fit my personality and my projects.)
 
-Besides that, I love a good challenge. This website&mdash;with the many visual elements, responsive grids, custom fonts&mdash;was certainly a challenge.
+Besides that, I love a good challenge. This website---with the many visual elements, responsive grids, custom fonts---was certainly a challenge.

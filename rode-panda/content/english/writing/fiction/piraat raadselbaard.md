@@ -8,7 +8,7 @@ color: 'blue'
 layoutDir: 'horizontal'
 resize: 2
 
-official: "https://nietdathetuitmaakt.nl/boeken/piraat-raadselbaard"
+official: "https://tiamopastoor.com/books/piraat-raadselbaard"
 
 categories: ["writing", "design"]
 tags: ["fiction", "published", "stories"]

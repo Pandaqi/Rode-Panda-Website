@@ -17,12 +17,7 @@ tags: ["website", "stories"]
 
 _Not That It Matters_ is the name of my personal blog, which is completely _Dutch_. (As such, if you want to read the articles, you'll have to rely on the amazing translations by Google Translate.)
 
-The blog has grown unbelievably huge over the years (partly due to the versatility of my work). Here are some links to the interesting parts of it:
-
-- [Reviews](https://nietdathetuitmaakt.nl/rare-recensies)
-- [Simulations](https://nietdathetuitmaakt.nl/zinderende-simulaties)
-- [Cartoons](https://nietdathetuitmaakt.nl/cartoons)
-- [Short stories](https://nietdathetuitmaakt.nl/vluchtig-verhaal)
+The blog has grown unbelievably huge over the years (partly due to the versatility of my work).
 
 It started as a default WordPress installation and existing design template. (I just wanted to start as quickly as possible and write some blogs.)
 

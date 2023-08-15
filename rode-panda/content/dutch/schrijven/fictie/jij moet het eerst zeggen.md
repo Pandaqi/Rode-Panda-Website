@@ -8,7 +8,7 @@ color: 'red'
 layoutDir: 'horizontal'
 resize: 1
 
-official: "https://nietdathetuitmaakt.nl/boeken/jij-moet-het-eerst-zeggen"
+official: "https://tiamopastoor.com/books/jij-moet-het-eerst-zeggen"
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["fictie", "gepubliceerd", "verhalen"]

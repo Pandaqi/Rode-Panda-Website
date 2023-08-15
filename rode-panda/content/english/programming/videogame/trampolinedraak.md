@@ -26,7 +26,7 @@ In this case, I made a drawing game. (Heavily inspired by the Jackbox Drawful 2 
 Everyone must draw something on their smartphone screen. Once done, drawings are displayed one by one, and everyone must guess what the drawing represents. (Again by typing something on their phone.) Points are awarded for right answers ... or by fooling other players with your wrong answer. The drawings are hilarious; the wrong answers even better.
 
 ## What I learned from the project
-You can read my (sort-of) "devlog" about the creation on my blog (only in Dutch): [Trampolinedraak Devlog](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/trampolinedraak-een-partyspel/)
+You can read my (sort-of) "devlog" about the creation on my blog (only in Dutch): [Trampolinedraak Devlog](https://tiamopastoor.com/blog/2018/2018-11-07-trampolinedraak-een-partyspel/)
 
 This project mainly taught me that there is a _better_ way to do this:
 * Using the WebRTC framework, I can connect devices much more easily. In fact, it's so fast, that you can play _realtime_ games with this technique.

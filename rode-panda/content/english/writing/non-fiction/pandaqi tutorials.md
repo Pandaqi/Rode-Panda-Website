@@ -29,7 +29,7 @@ It was also my first professional website. It taught me how to write (in English
 
 I've written two in-depth articles about it, albeit only in Dutch!
 
-* The creation and development of the website: [Het ontstaan van Pandaqi](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/het-ontstaan-van-pandaqi/)
-* The rewrite and overhaul: [Pandaqi Tutorials (v2)](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/pandaqi-tutorials-het-jubileum-van-twijfels/)
+* The creation and development of the website: [Het ontstaan van Pandaqi](https://tiamopastoor.com/blog/2019/2019-03-18-het-ontstaan-van-pandaqi/)
+* The rewrite and overhaul: [Pandaqi Tutorials (v2)](https://tiamopastoor.com/blog/2023/2023-12-15-pandaqi-tutorials-het-jubileum-van-twijfels/)
 
 Currently, the website hosts 30 full courses, each containing between 5 to 30 individual articles ( = tutorials). Especially the most recent ones are professional products that attract a lot of visitors to this day. 

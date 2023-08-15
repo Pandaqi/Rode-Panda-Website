@@ -27,6 +27,4 @@ Dit idee heeft enkele grote voordelen ten op zichte van (traditionele) spellen:
 
 De grote nadelen zijn natuurlijk dat het niet zo fijn voelt/eruitziet als een écht bordspel met houten/kartonnen componenten. En sommige dingen zijn natuurlijk _niet_ mogelijk in dit formaat, want je hebt maximaal één papier.
 
-Hier is een langere uitleg over het systeem: [One Paper Games (op NDHU Blog)](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/one-paper-games/)
-
-En hier is mijn volledige lijst met bordspellen: [Boardgames (on Pandaqi Games)](https://pandaqi.com/boardgames)
+Hier is een langere uitleg en mijn volledige lijst met bordspellen: [Boardgames (on Pandaqi Games)](https://pandaqi.com/boardgames)

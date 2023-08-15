@@ -7,7 +7,7 @@ date: 2017-09-02
 thumb: katvansint.webp
 header: katvansint-header.webp
 
-official: "https://nietdathetuitmaakt.nl/boeken/de-kat-van-sinterklaas"
+official: "https://tiamopastoor.com/books/de-kat-van-sinterklaas"
 
 layoutDir: "horizontal"
 color: 'blue'

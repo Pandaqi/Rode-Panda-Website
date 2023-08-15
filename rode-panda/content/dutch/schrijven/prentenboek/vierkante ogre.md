@@ -18,10 +18,10 @@ tags: ["prentenboek", "computerspel", "gepubliceerd", "uitvinding", "fictie"]
 _Vierkante Ogre_ is een **interactief prentenboek** én een **computerspel**. Beide zijn los te kopen en spelen, maar vullen elkaar aan en delen een deel van hun puzzels.
 
 Bezoek de officiële pagina's:
-* [Interactief Prentenboek](https://nietdathetuitmaakt.nl/boeken/vierkante-ogre)
+* [Interactief Prentenboek](https://tiamopastoor.com/books/vierkante-ogre)
 * [Puzzelspel](https://pandaqi.com/square-ogre)
 
-De [pagina op mijn blog](https://nietdathetuitmaakt.nl/boeken/) bevat ook links naar drie artikelen die ik schreef over de ontwikkeling: eentje voor het _prentenboek_, eentje voor de _puzzels_, en eentje over de _geleerde lessen_ in het algemeen.
+De pagina op mijn auteurswebsite bevat ook links naar drie artikelen die ik schreef over de ontwikkeling: eentje voor het _prentenboek_, eentje voor de _puzzels_, en eentje over de _geleerde lessen_ in het algemeen.
 
 ## Wat maakt het bijzonder?
 Dit is veruit het meest grote en ambitieuze project dat ik op moment van schrijven (18 Feb 2021) heb gedaan. 

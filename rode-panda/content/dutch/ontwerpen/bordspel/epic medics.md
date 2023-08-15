@@ -25,4 +25,4 @@ Bovendien ontbrak het aan variatie ... wat mij een idee gaf. Wat als ik een simp
 
 Dit werd uiteindelijk misschien wel de _leukste_ en meest unieke toevoeging aan het spel. En het opende mijn ogen naar de vele mogelijkheden van "hybride bordspellen" (een bordspel + digitale component), wat ik verder heb onderzocht in de latere _One Paper Games_.
 
-Hier is een diepgaand dagboek (in het Nederlands) over dit spel: [Ontwikkelaarsdagboek Epic Medics](https://nietdathetuitmaakt.nl/bordspellen/epic-medics/ontwikkelingsproces-epic-medics/)
+Hier is een diepgaand dagboek (in het Nederlands) over dit spel: [Ontwikkelaarsdagboek Epic Medics](https://pandaqi.com/blog/boardgames/epic-medics/)

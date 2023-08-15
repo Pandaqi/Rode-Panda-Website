@@ -19,7 +19,7 @@ Op de officiële pagina vind je alles: informatie, bestanden om te downloaden, e
 
 Wederom is alles helemaal zelf gemaakt: de ontwerpen, de kaarten/tegels, de spelregels, etc.
 
-Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Naïvigatie](https://nietdathetuitmaakt.nl/bordspellen/naivigatie/ontwikkelingsproces-naivigatie/)
+Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Naïvigatie](https://pandaqi.com/blog/boardgames/naivigation/)
 
 ## Wat maakt het bijzonder?
 Dit spel was het moment waarop ik dacht dat er misschien wel een toekomst voor mij was in de bordspellenwereld. 

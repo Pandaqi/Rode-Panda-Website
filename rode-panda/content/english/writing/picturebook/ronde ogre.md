@@ -18,7 +18,7 @@ tags: ["picturebook", "videogame", "published", "fiction"]
 _Round Ogre_ is an interactive picture book and a video game. Both can be bought and played/used separetely, but they complement each other and share some ideas and content.
 
 Visit the official pages:
-* [Picture book](https://nietdathetuitmaakt.nl/boeken/ronde-ogre) (in Dutch only)
+* [Picture book](https://tiamopastoor.com/books/ronde-ogre) (in Dutch only)
 * [Puzzle game](https://pandaqi.com/round-ogre) (English; available anywhere)
 
 ## What's special?

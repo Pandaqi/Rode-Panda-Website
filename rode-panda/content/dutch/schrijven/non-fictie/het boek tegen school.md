@@ -8,7 +8,7 @@ color: 'turquoise'
 layoutDir: 'horizontal'
 resize: 2
 
-official: "https://nietdathetuitmaakt.nl/boeken/het-boek-tegen-school"
+official: "https://tiamopastoor.com/books/het-boek-tegen-school"
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["onderwijs", "non-fictie"]

@@ -21,4 +21,4 @@ Dit spel is een soort spiritueel vervolg op eerdere spellen die ik heb gemaakt. 
 
 (Nou ja, er is nog veel te wensen, want het is één van mijn allereerste ontwerpen. En ik ben een perfectionist.)
 
-Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Slingerende Schoten](https://nietdathetuitmaakt.nl/bordspellen/slingerende-schoten/ontwikkelingsproces-slingerende-schoten/)
+Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Slingerende Schoten](https://pandaqi.com/blog/boardgames/swerving-shots/)

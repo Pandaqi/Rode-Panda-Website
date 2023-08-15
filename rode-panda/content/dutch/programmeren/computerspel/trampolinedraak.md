@@ -17,7 +17,7 @@ tags: ["computerspel", "website"]
 
 _Trampolinedraak_ was mijn trainingskamp voor de wereld van "smartphone multiplayer games"
 
-Dit zijn spellen die je _uitvoert_ op je computer (een programma of website), maar _speelt_ met je smartphone. Ze ondersteunen daardoor meestal _veel_ spelers &mdash; zonder nieuwe apparaten te kopen, zoals een berg controllers &mdash; wat geweldig is voor grote groepen, families, en feesten.
+Dit zijn spellen die je _uitvoert_ op je computer (een programma of website), maar _speelt_ met je smartphone. Ze ondersteunen daardoor meestal _veel_ spelers---onder nieuwe apparaten te kopen, zoals een berg controllers---wat geweldig is voor grote groepen, families, en feesten.
 
 ## Wat is het?
 In dit geval maakte ik een tekenspel. (Sterk geïnspireerd door de Jackbox Drawful spellen, wat ook de thumbnail van dit project is.)
@@ -25,7 +25,7 @@ In dit geval maakte ik een tekenspel. (Sterk geïnspireerd door de Jackbox Drawf
 Iedereen tekent iets op hun smartphone. Als je klaar bent, worden alle tekeningen één voor één op het scherm getoond, en iedereen moet raden wat het voorstelt. (Door iets te typen op hun mobiel.) Je krijgt punten voor de juiste antwoorden ... of door anderen voor de gek te houden met jouw foute antwoord. De tekeningen zijn hilarisch; de foute antwoorden nog beter.
 
 ## Lessen geleerd?
-Je kan mijn artikel over de creatie lezen op mijn blog: [Trampolinedraak Devlog](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/trampolinedraak-een-partyspel/)
+Je kan mijn artikel over de creatie lezen op mijn blog: [Trampolinedraak Devlog](https://tiamopastoor.com/blog/2018/2018-11-07-trampolinedraak-een-partyspel)
 
 Maar het leerde mij vooral ... wat je _niet_ moet doen en dat er _betere_ manieren zijn:
 * Gebruikmakend van het WebRTC framework, kan ik makkelijker én sneller veel apparaten verbinden. Sterker nog, het is zo snel dat je _realtime_ spellen kan spelen. (Dus geen vertraging tussen iets indrukken op je mobiel en de actie op het scherm.)

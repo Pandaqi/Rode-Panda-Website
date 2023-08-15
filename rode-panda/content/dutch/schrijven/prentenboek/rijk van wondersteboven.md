@@ -5,7 +5,7 @@ date: 2021-05-16
 
 thumb: wondersteboven.webp
 
-official: "https://nietdathetuitmaakt.nl/boeken/rijk-van-wondersteboven"
+official: "https://tiamopastoor.com/books/rijk-van-wondersteboven"
 
 layoutDir: 'horizontal'
 color: 'blue'

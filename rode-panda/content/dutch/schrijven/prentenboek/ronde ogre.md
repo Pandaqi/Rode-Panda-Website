@@ -18,7 +18,7 @@ tags: ["prentenboek", "computerspel", "gepubliceerd", "fictie"]
 _Ronde Ogre_ is een interactief prentenboek én een computerspel. Beide kunnen afzonderlijk worden gekocht en gespeeld, maar ze delen een stuk van hun inhoud en vullen elkaar aan.
 
 Bezoek de officiële pagina's:
-* [Prentenboek](https://nietdathetuitmaakt.nl/boeken/ronde-ogre)
+* [Prentenboek](https://tiamopastoor.com/books/ronde-ogre)
 * [Computerspel](https://pandaqi.com/round-ogre) (in het Engels)
 
 ## Bijzonderheden

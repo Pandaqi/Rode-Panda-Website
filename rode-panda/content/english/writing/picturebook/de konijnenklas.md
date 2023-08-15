@@ -6,7 +6,7 @@ date: 2021-01-02
 
 thumb: konijnenklas.webp
 
-official: "https://nietdathetuitmaakt.nl/boeken/de-konijnenklas"
+official: "https://tiamopastoor.com/books/de-konijnenklas"
 
 layoutDir: "horizontal"
 color: 'purple'

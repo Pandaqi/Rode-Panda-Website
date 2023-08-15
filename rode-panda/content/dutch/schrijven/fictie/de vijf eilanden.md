@@ -8,7 +8,7 @@ color: 'red'
 layoutDir: 'horizontal'
 resize: 2
 
-official: "https://nietdathetuitmaakt.nl/boeken/de-vijf-eilanden"
+official: "https://tiamopastoor.com/books/de-vijf-eilanden"
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["fictie", "gepubliceerd", "verhalen"]

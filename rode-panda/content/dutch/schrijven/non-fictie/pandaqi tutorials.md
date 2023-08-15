@@ -28,6 +28,6 @@ Op dit moment bevat het een stuk of 30 volledige _cursussen_ die elk tussen de 5
 
 Ik heb twee artikelen geschreven over dit proces.
 
-* Het ontwikkelen van de eerste versie van de website: [Het ontstaan van Pandaqi](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/het-ontstaan-van-pandaqi/)
-* Het herschrijven en verbeteren voor de vernieuwde versie: [Pandaqi Tutorials (v2)](https://nietdathetuitmaakt.nl/gewoon-een-gedachte/pandaqi-tutorials-het-jubileum-van-twijfels/)
+* Het ontwikkelen van de eerste versie van de website: [Het ontstaan van Pandaqi](https://tiamopastoor.com/blog/2019/2019-03-18-het-ontstaan-van-pandaqi/)
+* Het herschrijven en verbeteren voor de vernieuwde versie: [Pandaqi Tutorials (v2)](https://tiamopastoor.com/blog/2023/2023-12-15-pandaqi-tutorials-het-jubileum-van-twijfels/)
 

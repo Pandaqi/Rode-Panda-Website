@@ -8,7 +8,7 @@ color: 'blue'
 layoutDir: 'horizontal'
 resize: 2
 
-official: "https://nietdathetuitmaakt.nl/boeken/als-dit-huis-straks-overstroomt"
+official: "https://tiamopastoor.com/books/als-dit-huis-straks-overstroomt"
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["fictie"]
