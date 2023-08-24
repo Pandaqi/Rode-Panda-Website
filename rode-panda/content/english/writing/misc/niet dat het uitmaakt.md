@@ -7,7 +7,7 @@ ongoing: true
 
 thumb: ndhu.webp
 color: 'yellow'
-resize: 2
+resize: 1
 
 official: "https://nietdathetuitmaakt.nl"
 

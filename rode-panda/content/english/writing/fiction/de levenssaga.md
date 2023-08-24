@@ -10,15 +10,13 @@ color: 'turquoise'
 layoutDir: 'horizontal'
 resize: 3
 
-official: "https://delevenssaga.nl"
+official: "https://thesagaoflife.com"
 
 categories: ["writing", "design", "programming"]
 tags: ["fiction", "stories", "invention", "website"]
 ---
 
-_The Saga of Life_ (Dutch: "De Levenssaga") is such an extraordinary project that I can't explain it in one sentence. 
-
-_This project is, however, only available in Dutch. Sorry._
+_The Saga of Life_ is such an extraordinary project that I can't explain it in one sentence. 
 
 It's a **frame story**. It consists of short independent stories. But when you read multiple, they combine to tell a _bigger_ story of a world filled with life.
 
@@ -33,3 +31,5 @@ It's a **free website**. To go with the times. To make the stories as pretty and
 With the exception of a _frame story_, I've never seen these elements in other projects. And certainly not all at once. It's therefore quite experimental and only time will tell if this starts a new wave of storytelling ... or ends up being a terrible idea.
 
 For now it's a beautiful website with hopefully just as beautiful tales. (At the time of writing it has 10 stories with a total of roughly 120,000 words.)
+
+**Update (late 2023):** this project used to be Dutch only. I've since changed the website to be _multilingual_ and translate the newest stories to English once in a while. This means the Saga of Life can now be fully and officially enjoyed in two languages (Dutch and English)!
