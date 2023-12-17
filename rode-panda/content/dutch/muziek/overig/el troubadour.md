@@ -11,6 +11,7 @@ color: 'grayscale'
 thumb_bg: '#FEFEFE'
 
 official: "https://eltroubadour.com/"
+source: https://github.com/Pandaqi/El-Troubadour
 
 layoutDir: 'horizontal'
 

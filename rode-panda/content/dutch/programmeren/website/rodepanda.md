@@ -9,6 +9,7 @@ thumb: rodepanda.webp
 color: 'red'
 
 official: "https://rodepanda.com"
+source: https://github.com/Pandaqi/Rode-Panda-Website
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["website"]

@@ -9,6 +9,7 @@ thumb: pandaqigames.webp
 color: 'lime'
 
 official: "https://pandaqi.com"
+source: https://github.com/Pandaqi/Pandaqi-Studio
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["website"]

@@ -7,6 +7,7 @@ thumb: toweroffreedom.webp
 color: 'brown'
 
 official: "https://pandaqi.com/tower-of-freedom"
+source: https://github.com/Pandaqi/Tower-of-Freedom
 
 type: 'hobby'
 

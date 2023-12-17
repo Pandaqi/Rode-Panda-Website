@@ -47,6 +47,12 @@
 [devlog-page-explanation]
 	other = "A diary about the process of creating this project"
 
+[source-page]
+	other = "Source (Code)"
+
+[source-page-explanation]
+	other = "The public code and assets from this project"
+
 [professional]
 	other = 'professional'
 

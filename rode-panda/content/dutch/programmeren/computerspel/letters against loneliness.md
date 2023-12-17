@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/letters-against-loneliness"
+source: https://github.com/Pandaqi/Letters-Against-Loneliness
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel"]

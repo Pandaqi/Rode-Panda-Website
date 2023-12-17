@@ -11,6 +11,7 @@ layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/i-wish-you-good-hug"
 devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-i-wish-you-good-hug
+source: https://github.com/Pandaqi/I-Wish-You-Good-Hug
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]

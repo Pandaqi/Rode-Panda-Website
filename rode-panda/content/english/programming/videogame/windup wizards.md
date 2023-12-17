@@ -10,6 +10,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windup-wizards"
 devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windup-wizards
+source: https://github.com/Pandaqi/Windup-Wizards
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]

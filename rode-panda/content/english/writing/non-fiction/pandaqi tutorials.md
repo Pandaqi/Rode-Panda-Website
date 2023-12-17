@@ -10,6 +10,7 @@ resize: 2
 color: 'brown'
 
 official: "https://pandaqi.com/tutorials"
+source: https://github.com/Pandaqi/Pandaqi-Tutorials
 
 categories: ["writing", "programming"]
 tags: ["website", "tutorials", "non-fiction"]

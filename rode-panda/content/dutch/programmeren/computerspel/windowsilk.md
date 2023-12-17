@@ -10,6 +10,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windowsilk"
 devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windowsilk
+source: https://github.com/Pandaqi/Windowsilk
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]

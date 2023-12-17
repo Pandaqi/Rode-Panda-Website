@@ -10,6 +10,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/carving-pumpkins-and-dwarfing-dumplings"
 devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-carving-pumpkins-and-dwarfing-dumplings
+source: https://github.com/Pandaqi/Pumpkins
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["videogame", "website"]

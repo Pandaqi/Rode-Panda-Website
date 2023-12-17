@@ -2,6 +2,7 @@
 	
 	{{ $official_url := .Params.official }}
 	{{ $devlog_url := .Params.devlog }}
+	{{ $source_url := .Params.source }}
 	{{ $layout_dir := or .Params.layoutDir "vertical" }}
 
 	<article class="content-container layout-{{ $layout_dir }}">
@@ -36,6 +37,15 @@
 						</div>
 						<div class="official-url small-version">
 							<a href="{{ $devlog_url }}" title='{{ i18n "devlog-page-explanation" }}'>{{ i18n "devlog-page-explanation" | humanize }}</a>
+						</div>
+					{{ end }}
+
+					{{ if $source_url }}
+						<div class="official-url large-version">
+							<span>{{ i18n "source-page" }}: </span><a href="{{ $source_url }}" title='{{ i18n "source-page-explanation" }}'>{{ $source_url }}</a>
+						</div>
+						<div class="official-url small-version">
+							<a href="{{ $source_url }}" title='{{ i18n "source-page-explanation" }}'>{{ i18n "source-page-explanation" | humanize }}</a>
 						</div>
 					{{ end }}
 			   	{{ end }}

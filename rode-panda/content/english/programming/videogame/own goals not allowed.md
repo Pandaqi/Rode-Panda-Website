@@ -12,6 +12,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/own-goals-not-allowed"
 devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-own-goals-not-allowed
+source: https://github.com/Pandaqi/Own-Goals-Not-Allowed
 
 categories: ["programming", "design"]
 tags: ["videogame"]

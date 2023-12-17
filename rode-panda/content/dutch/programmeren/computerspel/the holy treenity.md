@@ -7,6 +7,7 @@ thumb: theholytreenity.webp
 color: 'green'
 
 official: "https://pandaqi.itch.io/the-holy-treenity"
+source: https://github.com/Pandaqi/The-Holy-Treenity
 
 type: "hobby"
 

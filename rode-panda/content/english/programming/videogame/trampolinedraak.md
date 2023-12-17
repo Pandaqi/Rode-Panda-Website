@@ -8,6 +8,7 @@ thumb: trampolinedraak.webp
 color: 'grayscale'
 
 official: "https://trampolinedraak.herokuapp.com/"
+source: https://github.com/Pandaqi/Trampolinedraak
 
 type: 'hobby'
 unfinished: true
@@ -18,7 +19,7 @@ tags: ["videogame", "website"]
 
 _Trampoline Dragon_ was my training ground for the world of "smartphone multiplayer games"
 
-These are games that you _run_ on your computer (either a program or a website), but _play_ on your smartphone. They usually support _many_ players &mdash; without the need to buy controllers for everyone &mdash; which is great for large groups and parties!
+These are games that you _run_ on your computer (either a program or a website), but _play_ on your smartphone. They usually support _many_ players&mdash;without the need to buy controllers for everyone&mdash;which is great for large groups and parties!
 
 ## What is it?
 In this case, I made a drawing game. (Heavily inspired by the Jackbox Drawful 2 game, which is also the thumbnail for this project.) 

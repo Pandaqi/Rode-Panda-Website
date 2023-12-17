@@ -11,6 +11,7 @@ layoutDir: 'horizontal'
 resize: 3
 
 official: "https://thesagaoflife.com"
+source: https://github.com/Pandaqi/The-Saga-Of-Life-Website
 
 categories: ["writing", "design", "programming"]
 tags: ["fiction", "stories", "invention", "website"]

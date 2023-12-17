@@ -11,6 +11,7 @@ layoutDir: 'horizontal'
 resize: 3
 
 official: "https://delevenssaga.nl"
+source: https://github.com/Pandaqi/The-Saga-Of-Life-Website
 
 categories: ["schrijven", "ontwerpen", "programmeren"]
 tags: ["fictie", "verhalen", "uitvinding", "website"]

@@ -47,6 +47,12 @@
 [devlog-page-explanation]
 	other = "Het ontwikkelaarsdagboek over dit project"
 
+[source-page]
+	other = "Broncode"
+
+[source-page-explanation]
+	other = "De code en bestanden achter dit project"
+
 [professional]
 	other = 'professioneel'
 

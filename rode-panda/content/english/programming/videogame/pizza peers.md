@@ -8,6 +8,7 @@ color: 'yellow'
 layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/pizza-peers"
+source: https://github.com/Pandaqi/pizza-peers
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]

@@ -7,6 +7,7 @@ thumb: trampolinedraak.webp
 color: 'grayscale'
 
 official: "https://trampolinedraak.herokuapp.com/"
+source: https://github.com/Pandaqi/Trampolinedraak
 
 type: 'hobby'
 unfinished: true

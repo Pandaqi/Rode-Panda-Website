@@ -10,6 +10,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/rolling-in-the-sheepe"
 devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-rolling-in-the-sheepe
+source: https://github.com/Pandaqi/rolling-in-the-sheepe
 
 categories: ["programming", "design"]
 tags: ["videogame"]

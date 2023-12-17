@@ -9,6 +9,7 @@ thumb: pandaqigames.webp
 color: 'lime'
 
 official: "https://pandaqi.com"
+source: https://github.com/Pandaqi/Pandaqi-Studio
 
 categories: ["programming", "design"]
 tags: ["website"]
@@ -25,4 +26,4 @@ It was made specifically to
 * Be a central hub for all my games. (As they used to be spread across many different platforms.)
 * Demonstrate my philosophy, personality, on which platforms you can reach/follow me, and why I only develop local multiplayer games.
 
-Some of my boardgames have a digital component &mdash; this website also handles that.
+Most of my boardgames have a digital component or generate their material on the fly! This website also handles that. In fact, over the years this has become the most important functionality.
