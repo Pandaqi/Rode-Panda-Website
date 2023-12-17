@@ -9,14 +9,13 @@ color: 'yellow'
 layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/i-wish-you-good-hug"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-i-wish-you-good-hug
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
 ---
 
 _I Wish You Good Hug_ is a cooperative video game for 1&ndash;4 players on the same device, in which you try to hug as many teddy bears as possible! (By, you know, throwing them to your fellow players and hoping they land in their arms.)
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-i-wish-you-good-hug) about this game.
 
 ## What's special?
 This is a _One Week Game_, which is a challenge I came up with to force myself to keep projects small, finish them, and publish them within a week.

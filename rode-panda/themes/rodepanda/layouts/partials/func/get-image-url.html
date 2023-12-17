@@ -1,0 +1,33 @@
+{{ $type := or .type "thumb" }} <!--- thumb or header --->
+{{ $url := or .context.Params.thumb "" }}
+{{ if not $url }}
+    {{ $url = (add .context.TranslationKey ".webp") }}
+{{ end }}
+
+{{ $urls := slice }}
+{{ if eq $type "header" }}
+    {{ $urls = $urls | append (replace $url ".webp" "_namelogo.webp") }}
+    {{ $urls = $urls | append (replace $url ".webp" "_header.webp") }}
+{{ else }}
+    {{ $urls = $urls | append $url }}
+    {{ $urls = $urls | append (replace $url ".webp" "_favicon.webp") }}
+{{ end }}
+
+{{ $final_url := "" }}
+{{ range $k,$v := $urls }}
+    {{ $full_url := partial "func/get-full-url" (dict "url" $v) }}
+    {{ if fileExists $full_url }}
+        {{ $final_url = $v }}
+        {{ break }}
+    {{ end }}
+{{ end }}
+
+{{ if or (not $final_url) (fileExists $final_url) }}
+    {{ if eq $type "header" }}
+        {{ $final_url = "placeholder_header.webp" }}
+    {{ else }}
+        {{ $final_url = "placeholder.webp" }}
+    {{ end }}
+{{ end }}
+
+{{ return $final_url }}

@@ -7,6 +7,7 @@ thumb: starryskylines.webp
 color: 'blue'
 
 official: "https://pandaqi.com/starry-skylines"
+devlog: https://pandaqi.com/blog/boardgames/starry-skylines
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -20,9 +21,8 @@ Here's a picture of some finished games within the same campaign:
 
 ![Starry Skylines - Papers from finished games](starryskylines-finishedgames.webp)
 
-Visit my blog to read [in-depth developer diaries](https://pandaqi.com/blog/boardgames/starry-skylines) about this game.
+## What's special?
 
-## What's special about this project?
 This game eventually turned out _gigantic_ with
 * Over 100 unique buildings that could appear
 * 8 planets to play (as you can see in the logo)

@@ -39,7 +39,13 @@
 	other = 'Officiële pagina'
 
 [official-page-explanation]
-	other = 'de officiële pagina voor dit project'
+	other = 'De officiële pagina voor dit project'
+
+[devlog-page]
+	other = "Dagboek"
+
+[devlog-page-explanation]
+	other = "Het ontwikkelaarsdagboek over dit project"
 
 [professional]
 	other = 'professioneel'

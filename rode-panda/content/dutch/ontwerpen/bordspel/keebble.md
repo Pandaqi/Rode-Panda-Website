@@ -7,6 +7,7 @@ thumb: keebble.webp
 color: 'purple'
 
 official: "https://pandaqi.com/keebble"
+devlog: https://pandaqi.com/blog/boardgames/keebble/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -15,8 +16,6 @@ tags: ["bordspel", "website", "editorial"]
 _Keebble_ beantwoordt de vraag: wat als je Scrabble in een halfuurtje kon spelen, met alleen één leeg blaadje en wat pennen?
 
 Het is een van mijn [One Paper Games](/en/design/boardgame/one-paper-games). Je plaatst woorden door ze te schrijven op het vel (in de vakjes). Wat het spel geweldig laat werken, echter, zijn wat slimme regels over hoe je weer _nieuwe_ letters krijgt. En een paar toevoegingen die ik altijd miste in Scrabble.
-
-Lees mijn [dagboek over de ontwikkeling](https://pandaqi.com/blog/boardgames/keebble), in het Engels, voor meer informatie.
 
 ## Bijzonderheden
 

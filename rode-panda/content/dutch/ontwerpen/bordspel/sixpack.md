@@ -8,6 +8,7 @@ color: 'purple'
 resize: 2
 
 official: "https://pandaqi.com/sixpack"
+devlog: https://pandaqi.com/blog/boardgames/sixpack/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -20,8 +21,6 @@ _Sixpack_ is een snel kaartspel. Elke ronde speelt men _tegelijkertijd_ een gehe
 * De hoogste kaart (6) of kaarten die nergens passen, _winnen_ een stapel.
 
 Jouw taak is om regelmatig stapels te winnen (en niet je kaarten steeds te moeten weggooien). Want het aantal kaarten in je hand is jouw score aan het einde!
-
-Lees een diepgaand [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/sixpack) op mijn Engelse spellenblog.
 
 ## Bijzonderheden
 

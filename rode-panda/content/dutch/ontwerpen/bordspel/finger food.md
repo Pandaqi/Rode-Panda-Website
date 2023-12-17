@@ -7,6 +7,7 @@ thumb: finger_food.webp
 color: 'pink'
 
 official: "https://pandaqi.com/finger-food"
+devlog: https://pandaqi.com/blog/boardgames/finger-food/
 
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
@@ -21,8 +22,6 @@ Elke beurt plaats je één (ongebruikte) vinger op een vakje. Zodra iedereen hun
 Een goede score behalen is natuurlijk lastiger dan dat. Er is veel interactie tussen vakjes, vingers van je tegenstanders, en speciale uitbreidingen (zoals het _receptenboek_ dat je beloont voor specifieke combinaties van ingrediënten).
 
 Een spel dat extreem makkelijk is te leren en opstarten, terwijl het eindeloze mogelijkheden voor strategie en punten scoren bevat! Print een aantal borden, neem ze mee waarheen je ook gaat, en je kan altijd direct een spelletje spelen met anderen.
-
-Lees een diepgaand [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/finger-food) op mijn Engelse spellenblog.
 
 ## Bijzonderheden
 

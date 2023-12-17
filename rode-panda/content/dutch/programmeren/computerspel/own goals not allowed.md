@@ -11,6 +11,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/own-goals-not-allowed"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-own-goals-not-allowed
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["videogame"]
@@ -19,8 +20,6 @@ tags: ["videogame"]
 _Own Goals Not Allowed_ is een spel voor 1&ndash;6 spelers waarin je een (heel) simpele versie van voetbal speelt ... op meerdere velden tegelijkertijd. En per ongeluk een eigen doelpunt maken heeft desastreuze gevolgen.
 
 Als je **omhoog** indrukt, bijvoorbeeld, ga je omhoog in _alle velden_. Er kunnen 1&ndash;4 velden zijn, met willekeurige goals, ballen, andere spelers. Dus een heldhaftige redding maken op het ene veld ... kan zomaar tot een dom eigen doelpunt leiden op een ander veld.
-
-Bezoek mijn blog voor een gedetailleerd [devlog/dagboek](https://pandaqi.com/blog/videogames/one-week-games/devlog-own-goals-not-allowed) over de ontwikkeling van dit spel.
 
 ## Bijzonderheden
 Dit was mijn eerste "weekend project". Een idee zo klein en simpel dat ik er nooit langer aan kan werken, noch het spel kan verkopen of er méér van kan maken. Maar nog steeds een goed idee dat ik graag eens wil maken.

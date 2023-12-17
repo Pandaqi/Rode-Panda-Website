@@ -11,6 +11,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/hack-battle"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-hack-battle
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["videogame"]
@@ -23,8 +24,6 @@ Een willekeurige kaart wordt gemaakt van **blokken** die **draden** verbinden. E
 Maar de blokken veranderen natuurlijk onderweg de waarde van de draden. Misschien draaien ze het om: AAN wordt UIT, of vice versa. Of ze sturen alleen de éérste draad door. Of ze sturen door wat de _meerderheid_ van de draden zegt.
 
 De speler die snel en logisch kan denken zal de code als eerste oplossen en de battle winnen!
-
-Visit my blog to read a [devlog](https://pandaqi.com/blog/videogames/one-week-games/devlog-hack-battle) about the development of this game.
 
 ## Bijzonderheden
 Dit was mijn _tweede_ "weekend project". Net zoals de eerste keer, was een weekend net te kort, en duurde het eerder vier dagen.

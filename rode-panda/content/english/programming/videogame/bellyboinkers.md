@@ -11,6 +11,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/bellyboinkers"
+devlog: https://pandaqi.com/blog/videogames/devlog-bellyboinkers
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -19,8 +20,6 @@ tags: ["videogame"]
 _Bellyboinkers_ is a local multiplayer partygame about boinking your opponents off the field with your belly!
 
 The premise is extremely simple and intuitive, which is what makes this game so accessible and great for groups. You only need to learn one button for movement (and maybe one for jumping). Then you can play an endless variety of arenas, characters, game modes, etcetera.
-
-Visit my blog to read a very detailed [devlog](https://pandaqi.com/blog/videogames/devlog-bellyboinkers) about the development of this game.
 
 ## What's special?
 

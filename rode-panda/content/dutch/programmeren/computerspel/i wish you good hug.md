@@ -10,6 +10,7 @@ color: 'yellow'
 layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/i-wish-you-good-hug"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-i-wish-you-good-hug
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]
@@ -18,8 +19,6 @@ tags: ["computerspel", "website"]
 _I Wish You Good Hug_ is een coöperatief computerspel voor 1&ndash;4 spelers op hetzelfde apparaat, waarin je probeert zoveel mogelijk teddyberen te knuffelen!
 
 (Door, zoals je weet, ze naar je medepselers te gooien en te hopen dat ze in hun armen landen.)
-
-Bezoek mijn blog voor een [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-i-wish-you-good-hug) over dit spel.
 
 ## Bijzonderheden?
 Dit is een _One Week Game_. Dat is een uitdaging die ik mezelf oplegde om projecten klein te houden én af te maken. Binnen een week.

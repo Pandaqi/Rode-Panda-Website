@@ -9,16 +9,16 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windup-wizards"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windup-wizards
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
+
 ---
 
 _Windup Wizards_ is a puzzle game (single player) where everything in the level can be _wound up_ and then later _activated_ to do its action. 
 
 The goal is to make all "bad things" disappear from the level, which I gave the silly theme of "magicians trying to make bunnies disappear into their hat again"
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/game-jams/devlog-windup-wizards) about this game.
 
 ## What's special?
 This game was made for the [GoGodot Jam (2)](https://itch.io/jam/go-godot-jam-2). It's a game contest specifically hosted to promote the "Godot" software, which I've used in my development for _years_ now. Even though I didn't have much time, I wanted to help them out and participate.

@@ -8,6 +8,7 @@ thumb_bg: '#2f1604'
 color: 'orange'
 
 official: "https://pandaqi.com/one-pizza-the-puzzle"
+devlog: https://pandaqi.com/blog/boardgames/one-pizza-the-puzzle
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -16,8 +17,6 @@ tags: ["boardgame", "website", "editorial"]
 _One Pizza the Puzzle_ is a [One Paper Game](/en/design/boardgame/one-paper-games) in which you must be the first to earn 10 dollars delivering pizzas.
 
 To do so, you're moving couriers ( = drawing lines) through a maze-like inner city ... but the lines may never cross!
-
-Visit my blog to read [in-depth developer diaries](https://pandaqi.com/blog/boardgames/one-pizza-the-puzzle) about this game.
 
 ## Why this project?
 I create the One Paper Games to deliver an innovative, cheap and accessible alternative to the expensive large boardgames you see in stores. 

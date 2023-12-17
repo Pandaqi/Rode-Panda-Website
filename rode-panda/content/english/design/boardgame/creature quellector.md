@@ -7,6 +7,7 @@ thumb: creature_quellector.webp
 color: 'green'
 
 official: "https://pandaqi.com/creature-quellector"
+devlog: https://pandaqi.com/blog/boardgames/creature-quellector/
 
 resize: 2
 
@@ -21,8 +22,6 @@ Creatures have a main type (such as water) that always counters something else (
 And now comes the zinger: win or lose, you _trade squads_. The only difference is that the winner picks one card that they're allowed to keep.
 
 Once you think your hand is the best and can't be improved, you say you're done. May the best creature collector win!
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/creature-quellector/) explaining how I designed this game.
 
 ## What's special?
 

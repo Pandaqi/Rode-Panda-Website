@@ -9,6 +9,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windowsilk"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windowsilk
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
@@ -23,8 +24,6 @@ As a challenge, I restricted myself to only two rules:
 This resulted in a very unique game where you constantly have to move (to create the spider web and find tiny bugs to eat), but also have to avoid the bigger bugs coming for you.
 
 Playing solo it's very strategic and relatively relaxing (there is no time limit to winning or losing), playing with others it becomes a huge battle for control over the spider web.
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/game-jams/devlog-windowsilk) about this game.
 
 ## What's special?
 This game was made for the [GitHub Game Off Jam (2021)](https://itch.io/jam/game-off-2021). It's one of the biggest game contests in the world, in which you have to make a game in less than a month, following a specific _theme_.

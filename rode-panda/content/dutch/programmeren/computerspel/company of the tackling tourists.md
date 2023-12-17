@@ -11,6 +11,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/company-of-the-tackling-tourists"
+devlog: https://pandaqi.com/blog/videogames/devlog-company-of-the-tackling-tourists
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["videogame"]
@@ -21,8 +22,6 @@ _Company of the Tackling Tourists_ is een partyspel over het begeleiden van toer
 Voordat ze door je medespelers van de kaart worden getacklet. Of opgegeten door een krokodil. Of opgeofferd door _jou_ om een beetje snelheid erbij te krijgen.
 
 Het idee is erg sterk en leuk. Maar omdat het mijn eerste grote spel was, heeft het zo zijn tekortkomingen. Een verbeterd vervolg verschijnt waarschijnlijk in de toekomst.
-
-Bezoek mijn blog om een gedetailleerde [devlog](https://pandaqi.com/blog/videogames/devlog-company-of-the-tackling-tourists) te lezen over de ontwikkeling.
 
 ## Bijzonderheden
 Dit was mijn eerste grote (lokale) multiplayerspel. Alle projecten hiervoor waren veel kleiner en meestal gratis gepubliceerd.

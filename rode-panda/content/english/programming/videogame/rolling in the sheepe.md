@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/rolling-in-the-sheepe"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-rolling-in-the-sheepe
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -21,8 +22,6 @@ It started as a simple idea: create a track from left to right, all players can 
 (If you're only rolling left to right, it's really hard to show all players + the road ahead on a screen. And if someone is substantially in the lead, it's even worse, and very discouraging for the other players. Flaws like that.)
 
 So the game became, well, a bigger game about rolling sheep. After taking a break to reassess if I wanted to finish this project that started small, I decided to do so, because it was just too fun already to leave behind.
-
-Visit my blog to read a [devlog](https://pandaqi.com/blog/videogames/one-week-games/devlog-rolling-in-the-sheepe) about the development of this game.
 
 ## What's special?
 This game uses _randomly generated routes_! Whenever you start a new game, it generates your path on the fly, creating new parts in front when needed, and destroying the oldest parts in the back.

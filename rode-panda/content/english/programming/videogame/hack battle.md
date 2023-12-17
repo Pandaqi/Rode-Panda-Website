@@ -11,6 +11,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/hack-battle"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-hack-battle
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -23,8 +24,6 @@ A random map is generated with **blocks** connected by **wires**. Each wire star
 Obviously, the blocks change the signal along the way. Maybe they invert it: ON becomes OFF, and vice versa. Or they only output the first signal they receive. Or they output what the _majority_ of signals is saying.
 
 The player that can think more quickly and logically than the other, will solve the code first!
-
-Visit my blog to read a [devlog](https://pandaqi.com/blog/videogames/one-week-games/devlog-hack-battle) about the development of this game.
 
 ## What's special?
 This was my _second_ "weekend project". Again, I wasn't able to fully create it in a weekend, and had to take 4 days.

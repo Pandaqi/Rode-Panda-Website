@@ -7,7 +7,7 @@ thumb: kangaruse.webp
 color: 'green'
 
 official: "https://pandaqi.com/kangaruse"
-
+devlog: https://pandaqi.com/blog/boardgames/kangaruse/
 
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
@@ -20,8 +20,6 @@ Het is een "One Paper Game": je hoeft alleen één blaadje te printen en wat pen
 Rondom het bord staan getallen en richtingen. Elke beurt spring je naar ene nieuw vakje. Hierbij moet je **één** van die commando's opvolgen (ofwel de richting, ofwel hoe ver je mag springen)---het commando dat je niet kiest mag je vrij invullen.
 
 Met deze simpele springregel proberen spelers de beste vakjes te bezoeken (die de meeste punten scoren), terwijl ze de slechte vakjes ontwijken---en natuurlijk routes waardoor ze zelf volledig vast komen te zitten.
-
-Lees een diepgaand [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/kangaruse) op mijn Engelse spellenblog.
 
 ## Bijzonderheden
 

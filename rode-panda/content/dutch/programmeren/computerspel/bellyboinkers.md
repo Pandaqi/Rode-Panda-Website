@@ -11,6 +11,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/bellyboinkers"
+devlog: https://pandaqi.com/blog/videogames/devlog-bellyboinkers
 
 categories: ["programmeren", "ontwerper"]
 tags: ["videogame"]
@@ -19,8 +20,6 @@ tags: ["videogame"]
 _Bellyboinkers_ is een groepsspel waarin je probeert jouw tegenstanders van het veld te "boinken" met je buik.
 
 Die opzet is extreem simpel en intuïtief, wat het zo toegankelijk maakt voor alle leeftijden en alle groepen. Je hoeft maar één knopje te leren voor bewegen (en misschien één voor springen). Dan kan je al een eindeloze variatie aan levels, karakters, speltypes, en meer spelen.
-
-Bezoek mijn blog voor een zéér gedetailleerd [devlog](https://pandaqi.com/blog/videogames/devlog-bellyboinkers) over de ontwikkeling van dit spel.
 
 ## Bijzonderheden
 

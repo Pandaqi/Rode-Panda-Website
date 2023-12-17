@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/rolling-in-the-sheepe"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-rolling-in-the-sheepe
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel"]
@@ -21,8 +22,6 @@ Het begon als een simpel idee: maak een route van links naar rechts, spelers kun
 (Als je alleen van links naar rechts rolt, is het haast onmogelijk om alle spelers + de weg die gaat komen te laten zien op één scherm. En als iemand een flinke voorsprong heeft, is het nog erger, en heel demotiverend voor de spelers die achteraan hobbelen. Dat soort fouten.)
 
 Dus het spel werd, tja, een _groter_ spel over schapen naar de finish rollen. Na een korte break van een maand om te kijken of ik zo'n simpel project wel zo groot wilde maken, besloot ik het tóch te doen, aangezien het al vrij ver was en nu al leuk was om te spelen.
-
-Bezoek mijn blog voor een gedetailleerd [devlog](https://pandaqi.com/blog/videogames/one-week-games/devlog-rolling-in-the-sheepe) over de ontwikkeling van het spel.
 
 ## Bijzonderheden
 Dit spel gebruikt _willekeurig gegenereerde routes_! Als je een nieuw spel start, bedenkt het jouw pad ter plekke. Het maakt nieuwe stukjes voorin als nodig, en vernietigt de oudste delen van het pad als iedereen daar voorbij is.

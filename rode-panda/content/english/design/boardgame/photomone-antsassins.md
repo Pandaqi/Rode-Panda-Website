@@ -7,6 +7,7 @@ thumb: photomone_antsassins.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone-antsassins"
+devlog: https://pandaqi.com/blog/boardgames/photomone-antsassins
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -19,8 +20,6 @@ What's the difference? In the original Photomone, you start with an empty paper 
 I thought: _what if we reverse that?_ You start with a paper filled with abstract or random shapes. The computer generates that for you. Then it's your job to _describe_ those shapes, or _guess_ which ones belong to your team.
 
 Iterating on the idea, it turned into something akin the popular board game "Codenames". Where that game uses _names_ (as the title suggests), mine is purely _visual_ with random shapes.
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/photomone-antsassins) explaining how I designed this game.
 
 ## What's special?
 

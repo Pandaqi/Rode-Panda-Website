@@ -4,9 +4,10 @@ translationKey: "foldigami"
 date: 2023-11-20
 
 thumb: foldigami.webp
-color: 'beige'
+color: 'blue'
 
 official: "https://pandaqi.com/foldigami"
+devlog: https://pandaqi.com/blog/boardgames/foldigami
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -23,7 +24,3 @@ It's a **very quick 2-player game**, which you can play multiple times using the
 If you know me, you can predict how this game started. I asked myself the question: "I've been making One Paper Games for a while now. But they all required something extra: rules to read, pencils to write, _something_. Can I make a truly One Paper Game?"
 
 Foldigami is the result. And as always, creating it taught me how to do it _better_, which means more true OPGs are on the way. But this is a great start, as the game has a hidden depth that you only uncover by playing the same board multiple times. And I love the origami theme and how it looks :)
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/foldigami) explaining how I designed this game.
-
-@TODO: Add example image of one board?

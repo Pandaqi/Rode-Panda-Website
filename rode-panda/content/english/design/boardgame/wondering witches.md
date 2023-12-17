@@ -7,6 +7,7 @@ thumb: wonderingwitches.webp
 color: 'purple'
 
 official: "https://pandaqi.com/wondering-witches"
+devlog: https://pandaqi.com/blog/boardgames/wondering-witches
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -18,9 +19,7 @@ At the start of the game, a random recipe is generated. Some ingredients receive
 
 During the game, players must cooperate, try different potions, and above all _think logically_ to solve the puzzle.
 
-Visit my blog to read [in-depth developer diaries](https://pandaqi.com/blog/boardgames/wondering-witches) about this game.
-
-(**Update!** This game received a major update several years later. The core puzzle mechanic was strong, but my first implementation felt lacking. I fixed that.)
+**Update!** This game received a major update several years later. The core puzzle mechanic was strong, but my first implementation felt lacking. I fixed that.
 
 ## What's special about this project?
 Two things:

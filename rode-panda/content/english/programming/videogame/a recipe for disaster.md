@@ -9,14 +9,13 @@ resize: 2
 layoutDir: 'horizontal'
 
 official: "https://pandaqi.com/a-recipe-for-disaster"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-a-recipe-for-disaster
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
 ---
 
 _A Recipe for Disaster_ is a cooperative video game for 1&ndash;4 players on the same device, in which you try to run a bakery! (But you can only move around ... and throw ingredients.)
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-a-recipe-for-disaster) about this game.
 
 ## What's special?
 This game was made as part of a (self-imposed) "one week game" challenge. I did this to force myself to keep the project small and contained, and ensure I release something fun within a week.

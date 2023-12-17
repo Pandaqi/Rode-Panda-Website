@@ -1,36 +1,43 @@
 {{ define "main" }}
 	
 	{{ $official_url := .Params.official }}
-	{{ $official_url_notice := or $official_url "bestaat niet, sorry :(" }}
+	{{ $devlog_url := .Params.devlog }}
 	{{ $layout_dir := or .Params.layoutDir "vertical" }}
 
 	<article class="content-container layout-{{ $layout_dir }}">
-		{{if .Params.thumb }}
-			
-		    <section class="post-header">
-		    	{{ $img_url := "" }}
-		    	{{ if .Params.thumbasheader }}
-		    		{{ $img_url = .Params.thumb }}
-		    	{{ else }}
-		    		{{ $img_url = replace .Params.thumb ".webp" "-header.webp" }}
-		    	{{ end }}
-		    	{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
-		    </section>
+		{{ $img_url := partial "func/get-image-url" (dict "context" . "type" "header") }}
+		{{ if $img_url }}
+			<section class="post-header">
+				{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
+			</section>
 		{{ end }}
 
 	    <div class="markdown-content-block">
 	    	<section>
-		   		{{ if not .Params.hideUrl }}
-		   			<a href="{{ $official_url }}" class="header-link"><h1>{{ .Title }}</h1></a>
+				{{ if $official_url }}
+					<a href="{{ $official_url }}" class="header-link"><h1>{{ .Title }}</h1></a>
+				{{ else }}
+					<h1>{{ .Title }}</h1>
+				{{ end }}
 
-			   		<div class="official-url large-version">
-			   			<span>{{ i18n "official-page" }}: </span><a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ $official_url_notice }}</a>
-			   		</div>
-			   		<div class="official-url small-version">
-			   			<a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ i18n "official-page-explanation" | humanize }}</a>
-			   		</div>
-			   	{{ else }}
-			   		<h1>{{ .Title }}</h1>
+				{{ if not .Params.hideUrl }}
+					{{ if $official_url }}
+						<div class="official-url large-version">
+							<span>{{ i18n "official-page" }}: </span><a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ $official_url }}</a>
+						</div>
+						<div class="official-url small-version">
+							<a href="{{ $official_url }}" title='{{ i18n "official-page-explanation" }}'>{{ i18n "official-page-explanation" | humanize }}</a>
+						</div>
+					{{ end }}
+
+					{{ if $devlog_url }}
+						<div class="official-url large-version">
+							<span>{{ i18n "devlog-page" }}: </span><a href="{{ $devlog_url }}" title='{{ i18n "devlog-page-explanation" }}'>{{ $devlog_url }}</a>
+						</div>
+						<div class="official-url small-version">
+							<a href="{{ $devlog_url }}" title='{{ i18n "devlog-page-explanation" }}'>{{ i18n "devlog-page-explanation" | humanize }}</a>
+						</div>
+					{{ end }}
 			   	{{ end }}
 				
 				{{ .Content }}
@@ -78,8 +85,7 @@
 			</section>
 		{{ end }}
 
-		<div class="horizontal-filler">
-		</div>
+		<div class="horizontal-filler"></div>
 	</article>
 
 {{ end }}

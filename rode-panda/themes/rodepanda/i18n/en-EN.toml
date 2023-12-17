@@ -39,7 +39,13 @@
 	other = 'Official page'
 
 [official-page-explanation]
-	other = 'official page for this project'
+	other = 'Official page for this project'
+
+[devlog-page]
+	other = "(Developer) Diary"
+
+[devlog-page-explanation]
+	other = "A diary about the process of creating this project"
 
 [professional]
 	other = 'professional'

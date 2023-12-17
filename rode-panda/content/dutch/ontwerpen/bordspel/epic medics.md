@@ -7,6 +7,7 @@ thumb: epicmedics.webp
 color: 'pink'
 
 official: "https://pandaqi.com/epic-medics"
+devlog: https://pandaqi.com/blog/boardgames/epic-medics/
 
 categories: ["ontwerpen", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -24,5 +25,3 @@ Het uiteindelijke spel werd meer realistisch dan gepland, wat het ook _langer_ m
 Bovendien ontbrak het aan variatie ... wat mij een idee gaf. Wat als ik een simpel script schrijf op mijn spellenwebsite die je willekeurige gebeurtenissen geeft tijdens het spelen?
 
 Dit werd uiteindelijk misschien wel de _leukste_ en meest unieke toevoeging aan het spel. En het opende mijn ogen naar de vele mogelijkheden van "hybride bordspellen" (een bordspel + digitale component), wat ik verder heb onderzocht in de latere _One Paper Games_.
-
-Hier is een diepgaand dagboek (in het Nederlands) over dit spel: [Ontwikkelaarsdagboek Epic Medics](https://pandaqi.com/blog/boardgames/epic-medics/)

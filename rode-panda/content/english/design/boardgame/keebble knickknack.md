@@ -7,6 +7,7 @@ thumb: keebble_knickknack.webp
 color: 'green'
 
 official: "https://pandaqi.com/keebble-knickknack"
+devlog: https://pandaqi.com/blog/boardgames/keebble-knickknack
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -15,8 +16,6 @@ tags: ["boardgame", "website"]
 _Keebble Knickknack_ is a spin-off of my fun word game [Keebble](/en/design/keebble). Same easy rules inspired by Scrabble, same ideas, but now supercharged because it's a **hybrid game**!
 
 That means you play on a physical paper (like a board game), but also use my website on one device (like a phone) while playing. The device handles a lot for you, making the game much faster to setup, explain and play. It also opens new opportunities that wouldn't be possible without a digital component.
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/keebble-knickknack) explaining how I designed this game.
 
 ## What's special?
 

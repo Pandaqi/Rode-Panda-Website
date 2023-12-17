@@ -7,6 +7,7 @@ thumb: amorphe.webp
 color: 'pink'
 
 official: "https://pandaqi.com/thats-amorphe"
+devlog: https://pandaqi.com/blog/boardgames/thats-amorphe
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -18,7 +19,7 @@ On your turn, you get two words and a secret percentage. You must find a word th
 
 It's probably my first game that is truly a party game. The explanation above is already 90% of the rules, and I've tested the game successfully with groups of any size or gaming experience.
 
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/thats-amorphe). It explains how I designed this game and the different versions through which it went.
+The devlog ("developer diary", see link above) explains how I designed this game and the different versions through which it went.
 
 ## What's special?
 

@@ -9,6 +9,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/carving-pumpkins-and-dwarfing-dumplings"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-carving-pumpkins-and-dwarfing-dumplings
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["videogame", "website"]
@@ -19,8 +20,6 @@ _Carving Pumpkins & Dwarfing Dumplings_ is een computerspel voor 1&ndash;8 spele
 Het gebruikt een systeem dat ik schreef om _elke willekeurige vorm_ op realistische wijze doormidden te snijden.
 
 En wat als je te vaak bent gesneden en te klein bent geworden? Ai, dan heb je verloren. (Het spel heeft ook vele andere minigames, want ik wilde dit leuke systeem niet verspillen aan slechts één simpel doel.)
-
-Bezoek mijn blog om een [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-carving-pumpkins-and-dwarfing-dumplings) te lezen over dit spel.
 
 ## Bijzonderheden
 Dit spel is de vierde in mijn reeks "One Week Games": een uitdaging waarmee ik mezelf dwing om projecten klein te houden, zodat ik ze binnen een week kan maken en uitgeven.

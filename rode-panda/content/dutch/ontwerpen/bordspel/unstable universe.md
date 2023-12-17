@@ -7,6 +7,7 @@ thumb: unstableuniverse.webp
 color: 'purple'
 
 official: "https://pandaqi.com/unstable-universe"
+devlog: https://pandaqi.com/blog/boardgames/unstable-universe
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -17,8 +18,6 @@ _Unstable Universe_ is het eerste _knipspel_ ooit gemaakt! (Voor zover ik kan zi
 Elke keer als je wilt spelen, bezoek je de website en drukt op een knop om een _willekeurig speelbord_ te laten maken. Zoals deze:
 
 ![Unstable Universe - Randomly Generated Board](unstableuniverse-board.webp)
-
-Bezoek mijn blog om een [diepgaande devlog](https://pandaqi.com/blog/boardgames/unstable-universe) te lezen over dit spel.
 
 ## Bijzonderheden?
 _Knippen_ is het grote element in dit spel.

@@ -11,6 +11,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/company-of-the-tackling-tourists"
+devlog: https://pandaqi.com/blog/videogames/devlog-company-of-the-tackling-tourists
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -21,8 +22,6 @@ _Company of the Tackling Tourists_ is a local multiplayer partygame about leadin
 Before they are tackled off the map. Or eaten by a crocodile. Or sacrificed by _you_ to gain some speed.
 
 The idea is really strong and fun. But being the first really big game I made, it has its flaws. A sequel might be developed in the future. 
-
-Visit my blog to read a very detailed [devlog](https://pandaqi.com/blog/videogames/devlog-company-of-the-tackling-tourists) about the development of this game.
 
 ## What's special?
 This was my first big local multiplayer game. All projects before it were much smaller in scope and usually released for free.

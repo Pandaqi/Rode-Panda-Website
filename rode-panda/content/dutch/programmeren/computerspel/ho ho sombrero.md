@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/ho-ho-sombrero"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-ho-ho-sombrero
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel"]
@@ -17,8 +18,6 @@ tags: ["computerspel"]
 _Ho Ho Sombrero_ is een grappige lokaal multiplayer spel (1&ndash;4 spelers) over eieren in de lucht houden met sombrero's.
 
 Het is gemaakt in <2 weken voor een _game jam_. (Dat is een spelwedstrijd waarin je, binnen zeer korte tijd, een spel moet ontwikkelen volgens bepaalde thema's of restricties.) Niemand kan dat zien van de buitenkant, aangezien het spel er kleurrijk, speels en afgewerkt uitziet, waar ik trots op ben! Maar als je het eenmaal speelt, kom je er snel achter dat er niet bepaald veel inhoud is ...
-
-Bezoek mijn blog om een [dagboek](https://pandaqi.com/blog/videogames/game-jams/devlog-ho-ho-sombrero) te lezen over de ontwikkeling van dit spel.
 
 ## Bijzonderheden
 Dit spel is dus gemaakt voor de [New Horizons Jam](https://itch.io/jam/new-horizons) met als thema "positiviteit" en "een nieuw begin". (Het was eind December, dus rond Oud & Nieuw.)

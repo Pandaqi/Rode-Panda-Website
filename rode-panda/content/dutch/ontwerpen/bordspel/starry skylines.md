@@ -7,6 +7,7 @@ thumb: starryskylines.webp
 color: 'blue'
 
 official: "https://pandaqi.com/starry-skylines"
+devlog: https://pandaqi.com/blog/boardgames/starry-skylines/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -19,8 +20,6 @@ Het probleem? Je weet niet welke keuzes je elke ronde krijgt en iedereen deelt d
 Hier is een foto van enkele uitgespeelde potjes binnen dezelfde campagne: 
 
 ![Starry Skylines - Papers from finished games](starryskylines-finishedgames.webp)
-
-Bezoek mijn blog om een [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/starry-skylines) te lezen over dit spel.
 
 ## Wat maakt het bijzonder?
 Dit spel werd uiteindelijk _gigantisch_ met

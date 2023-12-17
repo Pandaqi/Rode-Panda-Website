@@ -7,6 +7,7 @@ thumb: keebble.webp
 color: 'purple'
 
 official: "https://pandaqi.com/keebble"
+devlog: https://pandaqi.com/blog/boardgames/keebble
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -15,8 +16,6 @@ tags: ["boardgame", "website"]
 _Keebble_ answers the question: what if Scrabble could be played in 30 minutes and with just a piece of paper?
 
 It's one of my [One Paper Games](/en/design/boardgame/one-paper-games). You place words by writing them on the paper. What makes the game work, though, are some smart rules about how you _get_ new letters and some additions I've always wanted in Scrabble.
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/keebble) explaining how I designed this game.
 
 ## What's special?
 

@@ -7,14 +7,13 @@ thumb: keebble_domino.webp
 color: 'blue'
 
 official: "https://pandaqi.com/keebble-domino"
+devlog: https://pandaqi.com/blog/boardgames/keebble-domino/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
 ---
 
 _Keebble Domino_ is een "spin-off" van mijn taalspelletje [Keebble](/en/design/keebble). Het is zelfs de tweede spin-off, wat mijn trilogie van taalspellen afmaakt.
-
-Lees mijn [dagboek over de ontwikkeling](https://pandaqi.com/blog/boardgames/keebble-domino), in het Engels, voor meer informatie.
 
 ## Bijzonderheden
 

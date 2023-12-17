@@ -8,6 +8,7 @@ color: 'lime'
 resize: 2
 
 official: "https://pandaqi.com/totems-of-tag"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-totems-of-tag
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]
@@ -16,8 +17,6 @@ tags: ["computerspel", "website"]
 _Totems of Tag_ is een computerspel voor 2&ndash;4 spelers op hetzelfde apparaat.
 
 Het is praktisch _trefbal_ ... maar dan met werkelijk alle regels verwijderd, en vele powerups en variaties toegevoegd.
-
-Bezoek mijn blog voor een [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-totems-of-tag) over dit spel.
 
 ## Wat maakt het bijzonder?
 Het spel heeft geen tutorial. Omdat het concept van trefbal zo simpel en welbekend is (pak een bal, gooi het tegen een ander), hoef ik weinig uit te leggen.

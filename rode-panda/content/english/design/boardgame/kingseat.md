@@ -7,6 +7,7 @@ thumb: kingseat.webp
 color: 'purple'
 
 official: "https://pandaqi.com/kingseat"
+devlog: https://pandaqi.com/blog/boardgames/kingseat
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -19,8 +20,6 @@ Each player has a secret allegiance: they win if that team has the most votes by
 The idea was born from the question: "can I design a game you could play in a queue at a theme park?" That's why you can play this game while standing (in something that resembles a circle), with just a small deck of cards.
 
 It was also born from my annoyance with hidden role games (such as Werewolf) that relied on player elimination and wishy-washy deduction. That's why Kingseat eliminates nobody and provides clear reasons to suspect somebody to be on your team (or not).
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/kingseat) explaining how I designed this game.
 
 ## What's special?
 

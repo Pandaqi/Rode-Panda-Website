@@ -7,14 +7,13 @@ thumb: timelytransports.webp
 color: 'green'
 
 official: "https://pandaqi.com/timely-transports"
+devlog: https://pandaqi.com/blog/boardgames/timely-transports
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
 ---
 
 _Timely Transports_ is een [One Paper Game](/nl/ontwerpen/bordspel/one-paper-games) over goederen afleveren in een gevaarlijke jungle ... in real-time.
-
-Bezoek mijn blog voor [diepgaande devlogs](https://pandaqi.com/blog/boardgames/timely-transports) over dit spel.
 
 ## Hoe werkt het?
 Je speelt op een fysiek bord, waar iedereen tegelijk hun voertuigen verplaatst.

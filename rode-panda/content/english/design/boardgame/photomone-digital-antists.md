@@ -7,6 +7,7 @@ thumb: photomone_digital_antists.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone-digital-antists"
+devlog: https://pandaqi.com/blog/boardgames/photomone-digital-antists
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -17,8 +18,6 @@ _Photomone: Digital Antists_ is a spin-off for my family drawing game [Photomone
 What's the difference? This one is completely digital! You play it by simply visiting the website on a smartphone or tablet. (No rules to read, nothing to print, no physical material. It's a mix between a board game and a video game.)
 
 This forced me to simplify the game even further, but also opened up other opportunities. For example, I was able to add some mechanics that are quite complex, because the _computer_ could handle that---and players didn't need to learn how they work.
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/photomone-digital-antists) explaining how I designed this game.
 
 ## What's special?
 

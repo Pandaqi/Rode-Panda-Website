@@ -7,6 +7,7 @@ thumb: finger_food.webp
 color: 'pink'
 
 official: "https://pandaqi.com/finger-food"
+devlog: https://pandaqi.com/blog/boardgames/finger-food/
 
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
@@ -21,8 +22,6 @@ Each turn, you simply place one (unused) finger on a new square. Once everybody 
 Obviously, this isn't as easy as it sounds: there's a lot of interaction between squares, fingers from opponents, and rules from expansions (such as the _recipe book_).
 
 A game that's extremely easy to teach and start, while providing endless opportunities for strategy and scoring! Just print a few boards, take them with you wherever you go, and you can always instantly play a game with others.
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/finger-food/) explaining how I designed this game.
 
 ## What's special?
 

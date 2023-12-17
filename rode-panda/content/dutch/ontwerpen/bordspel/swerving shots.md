@@ -8,6 +8,7 @@ thumb: swervingshots.webp
 color: 'pink'
 
 official: "https://pandaqi.com/swerving-shots"
+devlog: https://pandaqi.com/blog/boardgames/swerving-shots/
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["bordspel", "editorial"]
@@ -20,5 +21,3 @@ Alles is door mij gemaakt: het idee, de ontwerpen, de kaarten/tegels, de regels,
 Dit spel is een soort spiritueel vervolg op eerdere spellen die ik heb gemaakt. Omdat ik daarmee al ervaring had opgebouwd, is dit spel denk ik uiteindelijk snel goed geworden. Het is simpel, het werkt, het is elk potje anders, iedereen waarmee ik het speelde vond het leuk, wat kun je nog meer wensen?
 
 (Nou ja, er is nog veel te wensen, want het is één van mijn allereerste ontwerpen. En ik ben een perfectionist.)
-
-Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Slingerende Schoten](https://pandaqi.com/blog/boardgames/swerving-shots/)

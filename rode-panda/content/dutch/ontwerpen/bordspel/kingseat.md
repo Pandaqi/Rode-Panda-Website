@@ -7,6 +7,7 @@ thumb: kingseat.webp
 color: 'purple'
 
 official: "https://pandaqi.com/kingseat"
+devlog: https://pandaqi.com/blog/boardgames/kingseat/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -19,8 +20,6 @@ Elke speler behoort tot een geheim groep: jij wint als jouw groep aan het einde 
 Het idee ontstond vanuit de vraag: "kan ik een spel ontwerpen dat je zou kunnen spelen in de wachtrij van een pretpark?" Daarom kan je dit spel staand spelen (zolang je iets van een cirkel kan maken), met slechts een kleine stapel kaarten.
 
 Het ontstond ook uit mijn frustratie met "hidden traitor" spellen (zoals Weerwolven) die leunden op spelereliminatie en vage logica. Daarom wordt in Kingseat niemand geëlimineerd en levert het spel elke ronde goede redenen om iemand te verdenken van een bepaalde geheime groep.
-
-Lees een diepgaand [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/kingseat) op mijn Engelse spellenblog.
 
 ## Bijzonderheden
 

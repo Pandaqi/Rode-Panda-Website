@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/ho-ho-sombrero"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-ho-ho-sombrero
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -19,8 +20,6 @@ _Ho Ho Sombrero_ is a silly local multiplayer game (1&ndash;4 players) about kee
 It was made in <2 weeks for a _game jam_. (Those are game development competitions in which you have a really short time frame to make something, following a certain theme or restrictions.) 
 
 Nobody is able to tell that from the outside, as I think the game looks wonderfully colorful and playful! But when you play it, it becomes obvious not much time was spent on the content.
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/game-jams/devlog-ho-ho-sombrero) about this game.
 
 ## What's special?
 I originally made it for a short _game jam_ in December about "new beginnings": [New Horizons Jam](https://itch.io/jam/new-horizons)

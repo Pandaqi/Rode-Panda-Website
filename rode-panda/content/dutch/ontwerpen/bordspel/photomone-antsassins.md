@@ -7,6 +7,7 @@ thumb: photomone_antsassins.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone-antsassins"
+devlog: https://pandaqi.com/blog/boardgames/photomone-antsassins/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -19,8 +20,6 @@ Wat is het verschil? In het originele Photomone begin je met een leeg papier (me
 Toen dacht ik: "_wat nou als we dat omdraaien?_" Je begint met een papiertje vol willekeurige lijnen en vormen. De computer genereert dat voor jou. En dan is het jouw taak om deze te _beschrijven_, zodat jouw teamgenoten kunnen gokken welke vormen bij wat horen.
 
 Het idee evolueerde verder en veranderde in iets dat lijkt op het populaire "Codenames". Waar dat spel _woorden_ gebruikt (zoals de naam suggereert), gebruikt de mijne dus puur _visuele vormen_.
-
-Bezoek mijn blog voor een gedetailleerd [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/photomone-antsassins) dat uitlegt hoe dit spel tot stand kwam.
 
 ## Bijzonderheden?
 

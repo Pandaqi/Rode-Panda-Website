@@ -7,6 +7,7 @@ thumb: thats_amorphe_pictures.webp
 color: 'pink'
 
 official: "https://pandaqi.com/thats-amorphe-pictures"
+devlog: https://pandaqi.com/blog/boardgames/thats-amorphe-pictures
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -20,7 +21,7 @@ Maybe you need to morph a drawing of a cat halfway into a house. Maybe a drawing
 
 If I'm honest, it's a better implementation of the original idea. Using the lessons learned from the base game, I was able to improve some rules and simplify it even further. Besides, drawing is just more intuitive for many people than coming up with words.
 
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/thats-amorphe-pictures). It explains how I designed this game and the different versions through which it went.
+The devlog ("developer diary", see link above) explains how I designed this game and the different versions through which it went.
 
 ## What's special?
 

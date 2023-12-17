@@ -11,6 +11,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/own-goals-not-allowed"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-own-goals-not-allowed
 
 categories: ["programming", "design"]
 tags: ["videogame"]
@@ -19,8 +20,6 @@ tags: ["videogame"]
 _Own Goals Not Allowed_ is a local multiplayer game (for 1&ndash;6 players) about playing a (very) simple version of soccer ... on multiple fields at the same time. And accidentally own goaling is BAD.
 
 When you press **up**, for example, your character goes up in _all fields_. There can be 1&ndash;4 fields at any given moment, with randomly sized goals, powerups, balls, other players. So making a heroic save in one location ... might just lead to a silly own goal in another.
-
-Visit my blog to read a [devlog](https://pandaqi.com/blog/videogames/one-week-games/devlog-own-goals-not-allowed) about the development of this game.
 
 ## What's special?
 This was my first "weekend project". An idea so small and simple I could never work on it much longer, nor sell the game or do anything more with it. But still a good idea that I really wanted to make.

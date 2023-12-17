@@ -9,6 +9,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windowsilk"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windowsilk
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]
@@ -23,8 +24,6 @@ Als uitdaging limiteerde ik mezelf tot slechts twee regels:
 Het resultaat is een uniek spel waar je constant moet bewegen (om het spinnenweb te vergroten en kleine beetjes voedsel te vinden), maar ook moet vluchten voor de grotere insecten die ineens op je af komen.
 
 In je eentje is het een strategisch en relaxed spel (want er staat geen tijdslimit op winnen of verliezen), met meerdere spelers wordt het een groot gevecht om de lekkerste hapjes op het web.
-
-Bezoek mijn blog voor een [dagboek ("what I've learned")](https://pandaqi.com/blog/videogames/game-jams/devlog-windowsilk) van dit spel.
 
 ## Bijzonderheden
 Dit spel is gemaakt voor de [GitHub Game Off Jam (2021)](https://itch.io/jam/game-off-2021). Het is één van de grootste spelwedstrijden in de wereld, waarin je binnen een maand een spel moet maken volgens een bepaald _thema_.

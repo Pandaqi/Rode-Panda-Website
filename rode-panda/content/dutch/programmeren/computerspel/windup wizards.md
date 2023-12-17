@@ -9,6 +9,7 @@ resize: 1
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windup-wizards"
+devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-windup-wizards
 
 categories: ["programmeren", "ontwerpen"]
 tags: ["computerspel", "website"]
@@ -17,8 +18,6 @@ tags: ["computerspel", "website"]
 _Windup Wizards_ is een puzzelspel (één speler) waar alles in het level kan worden _opgewonden_ en even later _geactiveerd_ zodat het diens actie doet. Zoals het opwindbare speelgoed waar kinderen mee spelen, of zo'n muziekdoosje.
 
 Het doel is om alle "slechte dingen" van het veld te krijgen, wat ik het grappige thema gaf dat je "een stel goochelaars bent die probeert om hun konijnen weer terug in de goochelhoed te laten verdwijnen"
-
-Bezoek mijn blog om een [dagboek ("what I've learned")](https://pandaqi.com/blog/videogames/game-jams/devlog-windup-wizards) te lezen over dit spel.
 
 ## Bijzonderheden
 Dit spel is gemaakt voor de [GoGodot Jam (2)](https://itch.io/jam/go-godot-jam-2) Dat is een spelwedstrijd met het specifieke doel om de "Godot" software te promoten, welke ik al _jarenlang_ gebruik voor al mijn spelontwerpen. Ondanks dat ik weinig tijd had voor deze wedstrijd, wilde ik toch graag helpen en meedoen.

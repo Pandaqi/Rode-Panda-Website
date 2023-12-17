@@ -7,6 +7,7 @@ thumb: unstableuniverse.webp
 color: 'purple'
 
 official: "https://pandaqi.com/unstable-universe"
+devlog: https://pandaqi.com/blog/boardgames/unstable-universe
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -17,8 +18,6 @@ _Unstable Universe_ is the first _cutting game_ ever made! (As far as I can tell
 Any time you want to play, visit the website, generate a random board, and print it. Like this one:
 
 ![Unstable Universe - Randomly Generated Board](unstableuniverse-board.webp)
-
-Visit my blog to read [in-depth developer diaries](https://pandaqi.com/blog/boardgames/unstable-universe) about this game.
 
 ## What's special?
 _Cutting_ is the major element in this game. 

@@ -1,0 +1,5 @@
+{{ $url := .url }}
+{{ $split := split $url "." }}
+{{ $ext := index $split (sub (len $split) 1) }}
+{{ $full_url := printf "%s/%s/%s" "/static" $ext ($url | safeURL) }}
+{{ return $full_url }}

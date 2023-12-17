@@ -7,6 +7,7 @@ thumb: thats_amorphe_pictures.webp
 color: 'pink'
 
 official: "https://pandaqi.com/thats-amorphe-pictures"
+devlog: https://pandaqi.com/blog/boardgames/thats-amorphe-pictures/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -21,8 +22,6 @@ Je pakt een tweede woord---geheim---en moet die tekening voor je neus _verandere
 Misschien krijg je van je teamgenoot een tekening van een kat die je voor de helft naar een huis moet tekenen. Misschien een boom die een giraffe moet worden ... maar slechts een _klein beetje_. De andere spelers moeten raden wat je geheime getal was.
 
 Eerlijk is eerlijk, dit is waarschijnlijk de betere versie van het originele idee. Ik kon de geleerde lessen gebruiken om regels nóg verder te versimpelen en in te stellen op een grappig groepsspel. Daarnaast is tekenen voor velen intuïtiever dan woorden bedenken.
-
-Lees het diepgaande [dagboek](https://pandaqi.com/blog/boardgames/thats-amorphe-pictures) over de ontwikkeling op mijn blog (in het Engels).
 
 ## Bijzonderheden
 

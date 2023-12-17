@@ -7,6 +7,7 @@ thumb: creature_quellector.webp
 color: 'green'
 
 official: "https://pandaqi.com/creature-quellector"
+devlog: https://pandaqi.com/blog/boardgames/creature-quellector/
 
 resize: 2
 
@@ -21,8 +22,6 @@ Wezens hebben een hoofdtype (zoals _water_) dat altijd een ander type blokkeert 
 En nu komt de grootste truc: of je nou wint of verliest, je _ruilt_ je team. Heet enige verschil is dat de winnaar één kaart mag kiezen om te houden.
 
 Zodra je denkt dat je hand niet meer beter kan worden, zeg je "ik ben klaar!". Zodra iedereen klaar is ... kijk je wie daadwerkelijk het beste team heeft verzameld!
-
-Lees een diepgaand [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/creature-quellector) op mijn Engelse spellenblog.
 
 ## Bijzonderheden
 

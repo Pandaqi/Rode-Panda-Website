@@ -7,6 +7,7 @@ thumb: photomone.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone"
+devlog: https://pandaqi.com/blog/boardgames/photomone
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
@@ -15,8 +16,6 @@ tags: ["boardgame", "website"]
 _Photomone_ is a simple, fun, fast party game about communicating words by drawing. But you're ants and can only draw by leaving a pheromone trail. 
 
 It's one of my [One Paper Games](/en/design/boardgame/one-paper-games). The map is a paper randomly filled with dots. You can only draw using straight lines between two dots, and each word has a maximum number of lines. In other words, it's your job to somehow communicate "robot" to the other players with 12 straight lines ;)
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/photomone) explaining how I designed this game.
 
 ## What's special?
 

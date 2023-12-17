@@ -8,6 +8,7 @@ thumb: naivigation.webp
 color: 'red'
 
 official: "https://pandaqi.com/naivigation"
+devlog: https://pandaqi.com/blog/boardgames/naivigation/
 
 categories: ["schrijven", "ontwerpen"]
 tags: ["bordspel", "editorial"]
@@ -19,9 +20,7 @@ Op de officiële pagina vind je alles: informatie, bestanden om te downloaden, e
 
 Wederom is alles helemaal zelf gemaakt: de ontwerpen, de kaarten/tegels, de spelregels, etc.
 
-Lees hier een diepgaand dagboek over de ontwikkeling van dit spel: [Ontwikkelaarsdagboek Naïvigatie](https://pandaqi.com/blog/boardgames/naivigation/)
-
-## Wat maakt het bijzonder?
+## Bijzonderheden
 Dit spel was het moment waarop ik dacht dat er misschien wel een toekomst voor mij was in de bordspellenwereld. 
 
 Vanaf de eerste versie had men plezier en waren de ontwerpen duidelijk, ook al was het slechts een hobbyproject dat ik snel in elkaar heb gedraaid.

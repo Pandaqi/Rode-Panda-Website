@@ -9,6 +9,7 @@ resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/carving-pumpkins-and-dwarfing-dumplings"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-carving-pumpkins-and-dwarfing-dumplings
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
@@ -21,8 +22,6 @@ It uses a system I wrote that can _realistically slice any shape_.
 When you throw a knife against your opponents, their shape is cut in half. And if you become too small? You are out of the game. 
 
 (In the end, I didn't want to waste such a cool system on _one_ simple objective, so I added many different minigames and arenas that explore this further.)
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-carving-pumpkins-and-dwarfing-dumplings) about this game.
 
 ## What's special?
 This game was made as part of a (self-imposed) "one week game" challenge. I do this to force myself to keep the project small and contained, and ensure I release something fun within a week. It's the fourth game made this way.

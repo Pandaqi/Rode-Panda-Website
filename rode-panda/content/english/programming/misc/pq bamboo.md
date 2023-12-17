@@ -10,6 +10,7 @@ color: 'brown'
 resize: 2
 
 official: "https://github.com/pandaqi/pq-bamboo"
+devlog: https://pandaqi.com/blog/news-and-updates/bamboo-my-own-coding-language/
 
 categories: ["programming", "design", "writing"]
 tags: ["website"]

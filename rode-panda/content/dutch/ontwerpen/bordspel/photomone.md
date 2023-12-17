@@ -7,6 +7,7 @@ thumb: photomone.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone"
+devlog: https://pandaqi.com/blog/boardgames/photomone/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -15,8 +16,6 @@ tags: ["bordspel", "website", "editorial"]
 _Photomone_ is een simpel, hilarisch, snel familiespel waarin je woorden communiceert door te tekenen. Maar je bent een stel mieren die alleen kan communiceren met hun bekende feromoonspoor.
 
 Het is een [One Paper Game](/nl/ontwerpen/bordspel/one-paper-games). Dat betekent dat je speelt op één papier dat je print, waarop allerlei stipjes staan. Tijdens je beurt mag je alleen tekenen met _rechte lijnen tussen de stipjes_. Dus tja, probeer maar eens "robot" te communiceren met tien rechte lijnen onder rare hoeken ;)
-
-Lees mijn blog voor het gedetailleerde [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/photomone) over hoe dit spel tot stand kwam.
 
 ## Bijzonderheden
 

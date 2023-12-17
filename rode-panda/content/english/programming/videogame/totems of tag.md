@@ -8,14 +8,13 @@ color: 'lime'
 resize: 2
 
 official: "https://pandaqi.com/totems-of-tag"
+devlog: https://pandaqi.com/blog/videogames/one-week-games/devlog-totems-of-tag
 
 categories: ["programming", "design"]
 tags: ["videogame", "website"]
 ---
 
 _Totems of Tag_ is a video game for 2&ndash;4 players on the same device. It's basically the game of dodgeball ... but with absolutely all rules removed, and many powerups and variations added.
-
-Visit my blog to read a [devlog ("what I've learned")](https://pandaqi.com/blog/videogames/one-week-games/devlog-totems-of-tag) about this game.
 
 ## What's special?
 This game has no tutorial. Because the concept of dodgeball is so simple and well-known (grab a ball, throw it against an opponent), there's not much to explain.

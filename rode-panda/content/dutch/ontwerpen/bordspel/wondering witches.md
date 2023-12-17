@@ -6,7 +6,8 @@ date: 2020-04-28
 thumb: wonderingwitches.webp
 color: 'purple'
 
-official: "https://pandaqi.com/wondering-witches"
+official: "https://pandaqi.com/wondering-witches/"
+devlog: https://pandaqi.com/blog/boardgames/wondering-witches/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -17,8 +18,6 @@ _Wondering Witches_ is een coöperatieve [One Paper Game](/nl/ontwerpen/bordspel
 Als het spel begint wordt een geheim recept gegenereerd. Sommige ingrediënten ontvangen een geheim getal (en moeten op volgorde staan), andere ingredienten zijn _nep_ en moeten zeker niet in het drankje zitten!
 
 Gedurende het spel moten spelers samenwerken, verschillende drankjes proberen, en bovenal _logisch nadenken_ om de puzzel op te lossen.
-
-Bezoek mijn blog voor een [ontwikkelingsdagboek](https://pandaqi.com/blog/boardgames/wondering-witches) over dit spel.
 
 ## Bijzonderheden?
 Twee dingen:

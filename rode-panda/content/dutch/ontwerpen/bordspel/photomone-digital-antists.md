@@ -7,6 +7,7 @@ thumb: photomone_digital_antists.webp
 color: 'brown'
 
 official: "https://pandaqi.com/photomone-digital-antists"
+devlog: https://pandaqi.com/blog/boardgames/photomone-digital-antists/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
@@ -17,8 +18,6 @@ _Photomone: Digital Antists_ is een spin-off van mijn tekenspel [Photomone](/nl/
 Wat is het verschil? Deze is compleet digitaal! Je speelt het door simpelweg de website te bezoeken op een smartphone of tablet. (Geen regels om te lezen, niks om te printen, geen fysiek materiaal. Het is een mix tussen een bordspel en een computerspel.)
 
 Dit dwong mij om het spel nóg verder te versimpelen, maar opende tegelijkertijd nieuwe deuren. Bijvoorbeeld, ik kon wat ideeën toevoegen die veel te moeilijk waren als mensen het zelf moesten bijhouden---maar nu kon de computer het bijhouden en was het supermakkelijk!
-
-Bezoek mijn blog om het gedetailleerde [ontwikkelaarsdagboek](https://pandaqi.com/blog/boardgames/photomone-digital-antists) te lezen over hoe ik dit spel heb ontwikkeld.
 
 ## Bijzonderheden?
 

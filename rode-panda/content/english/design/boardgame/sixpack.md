@@ -8,6 +8,7 @@ color: 'purple'
 resize: 2
 
 official: "https://pandaqi.com/sixpack"
+devlog: https://pandaqi.com/blog/boardgames/sixpack
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
@@ -20,8 +21,6 @@ _Sixpack_ is a fast card game. Each round, players simultaneously play a secret 
 * The highest card (6) or cards that don't fit anywhere _win_ a pile.
 
 Your job is to make sure you regularly win piles (and don't have all your cards removed). Because the number of cards still in your hand is your score at the end!
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/sixpack) explaining how I designed this game.
 
 ## What's special?
 

@@ -3,7 +3,7 @@
 {{ $resize := or .Params.resize 1 }}
 {{ $safe_title := replaceRE "(\\s)" "" (.Params.Title | lower) }}
 
-{{ $img_url := .Params.thumb }}
+{{ $img_url := partial "func/get-image-url.html" (dict "context" . "type" "thumb") }}
 {{ $item_type := printf "item-type-no-thumbnail-%s" $safe_title }}
 {{ if $img_url }}
 	{{ $item_type = "" }}
@@ -20,11 +20,10 @@
 	<div class="thumb-shadow"></div>
 
 	{{ if $img_url }}
-		<!-- Display thumbnail (WEBP default, use better format (AVIF) on supported browsers) -->
+		<!-- Display thumbnail -->
 		{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
 
 		<!-- To get some TEXT in here -->
-		<!-- @TODO: Enable this again, now properly -->
 		<span class="grid-item-metadata">
 			<h2>{{ .Title }}</h2>
 			<span>({{ .Section }})</span>

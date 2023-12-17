@@ -7,6 +7,7 @@ thumb: kangaruse.webp
 color: 'green'
 
 official: "https://pandaqi.com/kangaruse"
+devlog: https://pandaqi.com/blog/boardgames/kangaruse
 
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
@@ -19,8 +20,6 @@ It's a One Paper Game: to play, you only need to print one paper and grab some p
 Numbers and arrows are shown around the board. Every turn, you jump to a new square. You must follow **one** of the commands (either the direction _or_ how far you can jump), but may pick the other property of your jump freely.
 
 With this simple jumping rule, players try to visit the most useful squares (and score the most points), while avoiding bad squares (or routes that would leave you stranded with nowhere to go).
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/kangaruse) explaining how I designed this game.
 
 ## What's special?
 

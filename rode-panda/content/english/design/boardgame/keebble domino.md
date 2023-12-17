@@ -7,14 +7,13 @@ thumb: keebble_domino.webp
 color: 'blue'
 
 official: "https://pandaqi.com/keebble-domino"
+devlog: https://pandaqi.com/blog/boardgames/keebble-domino
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
 ---
 
 _Keebble Domino_ is a spin-off of my fun word game [Keebble](/en/design/keebble). It's actually the second one, completing the trilogy of word games. 
-
-Visit my blog to read [the developer diary](https://pandaqi.com/blog/boardgames/keebble-domino) explaining how I designed this game.
 
 ## What's special?
 

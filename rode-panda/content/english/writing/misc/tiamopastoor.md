@@ -16,7 +16,7 @@ tags: ["website", "stories"]
 
 This is my "author website". It's the home for all my writing work (published books, short stories, free fiction, reviews, everything written).
 
-It also contains upcoming work _and_ progress bars for them. I track my word counts anyway, and I saw other author's share this with their fans to great success, so I hopped on the bandwagon as well. You can visit the website at any time and see what books are coming up and how far along they are.
+It also contains upcoming work _and_ progress bars for them. I track my word counts anyway, and I saw other authors share this with their fans to great success, so I hopped on the bandwagon as well. You can visit the website at any time and see what books are coming up and how far along they are.
 
 Before this moment, I abused my personal Dutch blog (which was [Niet Dat het Uitmaakt](/en/writing/misc/not-that-it-matters/)) for author updates, which made a _mess_. After almost seven years of _blogging_ and mixing everything on that one website---which was never designed for it---I knew I needed a huge upgrade.
 
