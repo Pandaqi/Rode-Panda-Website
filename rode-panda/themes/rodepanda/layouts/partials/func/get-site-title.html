@@ -1,4 +1,4 @@
-{{ $title := .Title }}
+{{ $title := .Title | humanize }}
 {{ $suffix := printf " | %s" .Site.Title }}
 {{ $final_title := $title }}
 {{ if not .IsHome }}

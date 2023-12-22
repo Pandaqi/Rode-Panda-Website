@@ -8,6 +8,7 @@
 {{ if eq $type "header" }}
     {{ $urls = $urls | append (replace $url ".webp" "_namelogo.webp") }}
     {{ $urls = $urls | append (replace $url ".webp" "_header.webp") }}
+    {{ $urls = $urls | append $url }} <!--- default to thumb setting if no header matches --->
 {{ else }}
     {{ $urls = $urls | append $url }}
     {{ $urls = $urls | append (replace $url ".webp" "_favicon.webp") }}

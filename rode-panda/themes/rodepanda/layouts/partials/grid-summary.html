@@ -16,10 +16,13 @@
 
 {{ $tooltip := (printf "%s: %s" .Title .Summary) | safeHTML }}
 
+{{ $list_page := or (eq .Kind "taxonomy") (eq .Kind "term") }} <!--- a tag, a category, taxonomy, ... --->
+{{ $single_entry := not $list_page }} <!--- an actual project / single page with its own data --->
+
 <a href="{{ .Permalink }}" class="grid-item item-mask-{{ $rand_mask }} preselected-color-{{ $col }} item-resize-{{ $resize }} {{ $item_type }}" style='order: {{ .Scratch.Get "counter"}}' title="{{ $tooltip }}">
 	<div class="thumb-shadow"></div>
 
-	{{ if $img_url }}
+	{{ if $single_entry }}
 		<!-- Display thumbnail -->
 		{{ partial "show-image.html" (dict "context" . "img_url" $img_url) }}
 
@@ -30,7 +33,7 @@
 		</span>
 
 		<!-- Loop through both categories and tags (in that order) -->
-		<!-- Display the icon for the first 4 (at most) -->
+		<!-- Display the icon for the first 3 (at most) -->
 		<span class="thumbnail-taxonomy-list">
 			{{if or .Params.categories .Params.tags }}
 				{{ $full_list := union .Params.categories .Params.tags }}
@@ -41,8 +44,9 @@
 				{{ end }} 
 			{{ end }}
 		</span>
+	{{ end }}
 
-	{{ else }}
+	{{ if $list_page }}
 		<div class="no-thumbnail-block thumb-metadata thumb-metadata-icon-{{ $safe_title }}">
 			<span>{{ .Params.Title }}</span>
 		</div>
