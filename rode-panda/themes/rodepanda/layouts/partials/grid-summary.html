@@ -19,7 +19,7 @@
 {{ $list_page := or (eq .Kind "taxonomy") (eq .Kind "term") }} <!--- a tag, a category, taxonomy, ... --->
 {{ $single_entry := not $list_page }} <!--- an actual project / single page with its own data --->
 
-<a href="{{ .Permalink }}" class="grid-item item-mask-{{ $rand_mask }} preselected-color-{{ $col }} item-resize-{{ $resize }} {{ $item_type }}" style='order: {{ .Scratch.Get "counter"}}' title="{{ $tooltip }}">
+<a href="{{ .RelPermalink }}" class="grid-item item-mask-{{ $rand_mask }} preselected-color-{{ $col }} item-resize-{{ $resize }} {{ $item_type }}" style='order: {{ .Scratch.Get "counter"}}' title="{{ $tooltip }}">
 	<div class="thumb-shadow"></div>
 
 	{{ if $single_entry }}
