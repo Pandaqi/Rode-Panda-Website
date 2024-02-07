@@ -7,18 +7,14 @@
 	{{ if .IsHome }}
     	<a id="gotoBottomBtn" class="header-logo-link" style="cursor:pointer;">
 			<picture>
-				<!-- No AVIF; didn't make it smaller -->
 				<source srcset="/theme/webp/testheader_mobile.webp" media="(max-width: 660px)" />
-				<!-- No AVIF; didn't make it smaller -->
-				<img src="/theme/webp/testheader.webp" loading="lazy" decoding="async" class="sitewide-banner" />
+				<img src="/theme/webp/testheader.webp" loading="lazy" decoding="async" class="sitewide-banner" alt="Website header for Rode Panda showing name and tree decorations." />
 			</picture>
     	</a>
 	{{ else }}
 		<picture>
-			<!-- No AVIF; didn't make it smaller -->
 			<source srcset="/theme/webp/testheader_small_mobile.webp" media="(max-width: 660px)" />
-			<!-- No AVIF; didn't make it smaller -->
-			<img src="/theme/webp/testheader_small.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" />
+			<img src="/theme/webp/testheader_small.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" alt="Minimized website header for Rode Panda showing a branch and breadcrumbs leading to this page." />
 		</picture>
 		{{ partial "breadcrumbs.html" . }}
 	{{ end }}

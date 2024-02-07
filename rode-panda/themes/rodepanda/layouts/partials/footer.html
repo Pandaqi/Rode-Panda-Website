@@ -1,9 +1,8 @@
 <footer id="footer">
 	<div class="footer-image">
 		<picture>
-			<!-- No AVIF; didn't make it smaller -->
 			<source srcset="/theme/webp/testfooter_mobile.webp" media="(max-width: 660px)" />
-			<img src="/theme/webp/testfooter.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" />
+			<img src="/theme/webp/testfooter.webp" loading="lazy" decoding="async" class="sitewide-banner banner-with-overlay" alt="Website footer for Rode Panda, green-forest background for navigation and menu." />
 		</picture>
 	</div>
 
@@ -99,6 +98,7 @@
 <span style="display:none;" id="hidden-hugo-metadata" data-pages="{{ $list }}"></span>
 
 <!-- Deferred loading of Fonts = huge speed boost -->
-{{ $js := resources.Get "js/deferred_script.js" | resources.Minify }}
+{{ $build_options := dict "targetPath" "js/main.bundle.js" -}}
+{{ $js := resources.Get "js/main.ts" | js.Build $build_options | resources.Minify }}
 <script src="{{ $js.RelPermalink }}" async defer></script>
 
