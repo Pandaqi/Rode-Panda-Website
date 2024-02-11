@@ -10,7 +10,7 @@ color: 'turquoise'
 layoutDir: 'horizontal'
 resize: 3
 
-official: "https://delevenssaga.nl"
+official: "https://thesagaoflife.com/nl/"
 source: https://github.com/Pandaqi/The-Saga-Of-Life-Website
 
 categories: ["schrijven", "ontwerpen", "programmeren"]
