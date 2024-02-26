@@ -1,24 +1,66 @@
 ---
 title: "Naivigation"
 translationKey: "naivigation"
-date: 2019-02-24
+date: 2025-10-26
 
 thumb: naivigation.webp
 color: 'red'
 
-official: "https://pandaqi.com/naivigation"
+resize: 3
+
+official: "https://pandaqi.com/naivigation/"
+devlog: "https://pandaqi.com/blog/boardgames/naivigation/"
 
 categories: ["writing", "design"]
 tags: ["boardgame", "editorial"]
 ---
 
+_Naivigation_ is my biggest achievement in the space of (board)games thus far. I'll explain that in a bit, but let's first see what the games are about.
 
-_Naivigation_ is a cooperative boardgame in which you try to steer a single car ... together.
+The Naivigation projects are **cooperative games** where you're trying to **steer a vehicle together**. Maybe one person can only steer, but not drive forward. Maybe another can only explore the surroundings. Your communication is limited to the moments when somebody plays a "Discuss" card.
 
-At this link you'll find all files to download, which are the rules and designs for the game, and a developer diary about the development process.
+As expected, this requires planning ahead, strategy, and cooperation on multiple levels. It also leads to chaos, destroyed vehicles, and not reaching your target in time. 
 
-As usual, everything was made by my from scratch: the designs, the cards/tiles, the rules, etc. This game taught me a lot about creating clear card designs and simplifying rules.
+Most of all, using extremely simple rules and material, it leads to loads of fun for both tiny and large groups of players. (With 6+ players, you split into 2 teams, each driving their own vehicle.)
 
-It was also my first boardgame that just _clicked_ with people around me. Even the earliest version was a lot of fun and easy to play/get into for my friends and family. 
+## What's special?
 
-Because of the succes of the first version, I'm planning to overhaul the game (with the lessons I learned later), and add expansions.
+There are enough special bits to warrant subheadings!
+
+### So it's multiple games?
+
+Yes! Each of them uses a **different vehicle**. In one game you might be sailing a ship, in another you're driving a car, and another has you submerging in a submarine.
+
+It's not just a visual change. A new vehicle obviously means new terrain, new ways of moving, new challenges. Each Naivigation spin-off is clearly a different game---but they all share the same core.
+
+This means you only need to learn it once, which is always nice. Even so, the game is simple enough to (re)learn in a few minutes.
+
+It also means you only need to print most of the material once, which saves money and effort. This "shared material" is reusable across all Naivigation games.
+
+Hopefully you see why it was such a big undertaking. I had to write all the code, create the graphics, implement shared systems that would fit every single idea I had for a different vehicle. And then make and test each individual game, including its special rules and graphics.
+
+### Wait, didn't you make Naivigation before?
+
+Yes! For years, an older (much worse) version of Naivigation was on my website. 
+
+I invented the general idea long ago and made a _car-based version_ at that time, in Dutch. (That's how long ago it was. I still defaulted to my native language, Dutch, for most projects.)
+
+When testing it, I saw that it had great potential, but I also saw my current execution was severely flawed. But that's okay, it was only my fifth "somewhat serious" game project. 
+
+I wrote down "remake it, but much better and with different vehicles"
+
+Many years later, I had the frameworks, the experience, the knowledge to actually do this. I dove in and worked on "version 2.0" for a long time, in between other projects. You would barely recognize version 1 anymore---it was a completely rewrite of the entire game idea.
+
+Still, that first version wasn't wasted. It proved its potential. It also _showed_ me why many parts didn't work and how to change that.
+
+### It's completely free and minimalist
+
+As always, I go for simple and minimalist. The material is just _cards_ and _tiles_. Easy to cut, use, store. 
+
+(I might be a bit radical here, as I already dislike games that have more than three different bits inside the box, and all those plastic thingies that make a game less elegant and more bulky. But still, it's a good ideal to have.)
+
+As stated, shared material is reused. I save as much ink and paper as possible. On the website, you can even pick smaller card sizes or grayscale cards, which it will generate for you in a nice PDF.
+
+The rules for the base game are kept dead simple. Any variants, expansions, cool ideas---no matter how much I love them---are neatly moved to an optional expansion. (Most of which are also shared, usable in any version.)
+
+It was a lot of work. But I really believe this idea has a great balance between simplicity and accessibility, and depth and challenge, which is why I went all the way.

@@ -1,7 +1,7 @@
 {{ $title := .Title | humanize }}
 {{ $suffix := printf " | %s" .Site.Title }}
-{{ $final_title := $title }}
-{{ if not .IsHome }}
-    {{ $final_title = add $final_title $suffix }}
+{{ $final_title := add $title $suffix }}
+{{ if .IsHome }}
+    {{ $final_title = "Homepage | Red Panda | Portfolio" }}
 {{ end }}    
 {{ return $final_title }}
