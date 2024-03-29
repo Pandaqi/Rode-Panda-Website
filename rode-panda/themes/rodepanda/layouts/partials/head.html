@@ -17,18 +17,10 @@
 
     <!-- Only load critical CSS first, rest comes after it (external spritesheet) -->
     {{ $options := (dict "targetPath" "css/critical.css" "outputStyle" "compressed" "transpiler" "dartsass") }}
-    {{ $crit_style := resources.Get "sass/critical.scss" | resources.ToCSS $options }}
+    {{ $crit_style := resources.Get "sass/critical.scss" | resources.ToCSS $options | minify }}
     <link rel="stylesheet" type="text/css" href="{{ $crit_style.RelPermalink }}">
 
     <link rel="icon"  type="image/png" href="{{ .Site.Params.favicon | absURL }}">
-
-    <!-- Original fonts: Laila (headings), Actor (main/body) -->
-    <!-- New Fonts: Rode Panda (headings; custom), Vollkortn (main/body) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <noscript>
-	   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
-    </noscript>
     
 	<!-- Display correct (perhaps concatenated) site title -->
     <title>{{ partial "func/get-site-title.html" . }}</title>

@@ -1,15 +1,8 @@
-@font-face {
-	font-family: 'RodePanda';
-	src: url("/theme/rodepanda.woff2") format('woff2'),
-		 url("/theme/rodepanda.woff") format('woff');
-	
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-}
+$body-font: "Vollkorn";
+$header-font: "RodePanda";
 
-$body-font-stack: 'Vollkorn', Calibri, Georgia, serif;
-$header-font-stack: 'RodePanda', Georgia, serif;
+$body-font-stack: $body-font, Calibri, Georgia, serif;
+$header-font-stack: $header-font, Georgia, serif;
 
 $grid-item-size: 120;
 $grid-gap: 20;
@@ -37,3 +30,44 @@ $metadata-order-nl: "schrijven", "muziek", "ontwerpen", "programmeren", "instrum
 $metadata-color-order: #68B442, #A737E6, #4276BC, #FF3100, #A737E6, #A737E6, 
 #68B442, #68B442, #68B442, #C1CF35, #CF8935, #2E9A83, #FF001E, #2E9A83, #FF001E, #FD00FF,
 #2E329A, #68B442, #68B442, #2E329A, #CF8935;
+
+@font-face {
+	font-family: $header-font;
+	src: url("/theme/rodepanda.woff2") format('woff2'),
+		 url("/theme/rodepanda.woff") format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('/theme/Vollkorn-BlackItalic.woff2') format('woff2');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('/theme/Vollkorn-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('/theme/Vollkorn-Italic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: $body-font;
+    src: url('/theme/Vollkorn-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
