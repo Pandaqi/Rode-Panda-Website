@@ -19,7 +19,7 @@
             {{ if and (ne $part "en") (ne $part "nl") }}
                 {{- $url := printf "/%s" ($.Scratch.Get "url") -}}
                 {{- $full_url := printf "%s_index.md" $url -}}
-                {{- $thumb_url := partial "func/get-image-url.html" (dict "context" . "type" "thumb") }}
+                {{- $thumb_url := partial "func/get-image-url.html" (dict "context" $context "type" "thumb") }}
                 {{- $page := $context.GetPage $full_url -}}
 
                 / 
@@ -28,7 +28,7 @@
                         {{ $final_part := eq $index $num_parts }}
                         {{ $thumb := $context.Params.thumb }}
                         {{ if and $final_part $thumb }}
-                            <span class="breadcrumb-icon"><img src="{{ $thumb_url }}" /></span>
+                            <span class="breadcrumb-icon"><img src="/webp/{{ $thumb_url }}" /></span>
                         {{ else }}
                             {{- $thumb_title := $part -}}
                             <span class="thumb-metadata thumb-metadata-icon-{{ $thumb_title }} breadcrumb-icon"></span>

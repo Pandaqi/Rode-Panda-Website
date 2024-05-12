@@ -6,8 +6,8 @@ date: 2023-12-20
 thumb: kingseat.webp
 color: 'purple'
 
-official: "https://pandaqi.com/kingseat"
-devlog: https://pandaqi.com/blog/boardgames/kingseat/
+official: "https://pandaqi.com/throneless-games/conquer/kingseat/"
+devlog: https://pandaqi.com/blog/boardgames/throneless-games/kingseat/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]
