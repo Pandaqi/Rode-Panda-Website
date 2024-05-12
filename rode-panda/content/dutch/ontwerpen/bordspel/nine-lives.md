@@ -6,8 +6,8 @@ date: 2024-08-25
 thumb: nine_lives.webp
 color: 'red'
 
-official: "https://pandaqi.com/nine-lives"
-devlog: https://pandaqi.com/blog/boardgames/nine-lives
+official: "https://pandaqi.com/the-outnumbered-series/count-to/nine-lives"
+devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/nine-lives
 
 resize: 2
 

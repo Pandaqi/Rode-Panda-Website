@@ -6,8 +6,8 @@ date: 2023-11-20
 thumb: foldigami.webp
 color: 'blue'
 
-official: "https://pandaqi.com/foldigami"
-devlog: https://pandaqi.com/blog/boardgames/foldigami
+official: "https://pandaqi.com/waitless-games/play/foldigami"
+devlog: https://pandaqi.com/blog/boardgames/waitless-games/foldigami
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]

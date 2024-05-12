@@ -35,7 +35,7 @@ Het gemiddelde taalspel werkt alleen als iedereen de woorden kent die ze moeten 
 
 Zo maakte ik dus dit project. De woorden zijn gecategoriseerd op _type_, _moeilijkheidsgraad_ en _categorie_ (en soms _subcategorie_).
 
-Gaandeweg realiseerde ik dat het natuurlijk ook als woordenboek werkte. Zo heb ik enkele Scrabble-achtige spellen gemaakt, zoals [Keebble](https://pandaqi.com/keebble). En dat soort spellen hebben de neiging om tot discussies te leiden over "is dat wel een bestaand woord?!"
+Gaandeweg realiseerde ik dat het natuurlijk ook als woordenboek werkte. Zo heb ik enkele Scrabble-achtige spellen gemaakt, zoals de [Keebble Games](https://pandaqi.com/keebble-games/). En dat soort spellen hebben de neiging om tot discussies te leiden over "is dat wel een bestaand woord?!"
 
 Door een [dictionary tool](https://pandaqi.com/tools/dictionary/) toe te voegen, los je dat op.
 

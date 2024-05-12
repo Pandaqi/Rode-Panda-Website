@@ -6,7 +6,7 @@ date: 2023-08-20
 thumb: photomone_digital_antists.webp
 color: 'brown'
 
-official: "https://pandaqi.com/photomone-digital-antists"
+official: "https://pandaqi.com/photomone-games/draw/photomone-digital-antists/"
 devlog: https://pandaqi.com/blog/boardgames/photomone-digital-antists/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]

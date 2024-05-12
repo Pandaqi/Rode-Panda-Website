@@ -6,7 +6,7 @@ date: 2023-09-20
 thumb: photomone_antsassins.webp
 color: 'brown'
 
-official: "https://pandaqi.com/photomone-antsassins"
+official: "https://pandaqi.com/photomone-games/draw/photomone-antsassins/"
 devlog: https://pandaqi.com/blog/boardgames/photomone-antsassins/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]

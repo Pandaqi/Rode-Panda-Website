@@ -6,8 +6,8 @@ date: 2024-09-11
 thumb: nine_lives_tricksy_kittens.webp
 color: 'red'
 
-official: "https://pandaqi.com/nine-lives-tricksy-kittens"
-devlog: https://pandaqi.com/blog/boardgames/nine-lives-tricksy-kittens
+official: "https://pandaqi.com/the-outnumbered-series/count-to/nine-lives-tricksy-kittens"
+devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/nine-lives-tricksy-kittens
 
 resize: 1
 

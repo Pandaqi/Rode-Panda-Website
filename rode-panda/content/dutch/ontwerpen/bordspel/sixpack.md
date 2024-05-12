@@ -7,8 +7,8 @@ thumb: sixpack.webp
 color: 'purple'
 resize: 2
 
-official: "https://pandaqi.com/sixpack"
-devlog: https://pandaqi.com/blog/boardgames/sixpack/
+official: "https://pandaqi.com/the-outnumbered-series/count-to/sixpack/"
+devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/sixpack/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]
 tags: ["bordspel", "website", "editorial"]

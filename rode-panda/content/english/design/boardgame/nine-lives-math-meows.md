@@ -6,8 +6,8 @@ date: 2024-09-11
 thumb: nine_lives_math_meows.webp
 color: 'red'
 
-official: "https://pandaqi.com/nine-lives-math-meows"
-devlog: https://pandaqi.com/blog/boardgames/nine-lives-math-meows
+official: "https://pandaqi.com/the-outnumbered-series/count-to/nine-lives-math-meows"
+devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/nine-lives-math-meows
 
 resize: 1
 

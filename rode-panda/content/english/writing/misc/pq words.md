@@ -33,7 +33,7 @@ That's why I decided to roll my own solution. I needed words clearly categorized
 
 Many word games only need English words that are common and well-known. Some games only focus on "food" nouns, or "animals", or verbs. In any case, I wanted to give my users/players the _choice_ about which words they want to use.
 
-Finally, as I made these lists, I realized they could double as an actual dictionary. I've created a few Scrabble-like games, such as [Keebble](https://pandaqi.com/keebble). Those always lead to discussions about "That's not a word! You made that up!" By including a [dictionary page](https://pandaqi.com/tools/dictionary/), you can solve that.
+Finally, as I made these lists, I realized they could double as an actual dictionary. I've created a few Scrabble-like games, such as the [Keebble Games](https://pandaqi.com/keebble-games/). Those always lead to discussions about "That's not a word! You made that up!" By including a [dictionary page](https://pandaqi.com/tools/dictionary/), you can solve that.
 
 ## So ...
 

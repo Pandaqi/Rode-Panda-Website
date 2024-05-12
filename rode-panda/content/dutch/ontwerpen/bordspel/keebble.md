@@ -6,7 +6,7 @@ date: 2023-02-17
 thumb: keebble.webp
 color: 'purple'
 
-official: "https://pandaqi.com/keebble"
+official: "https://pandaqi.com/keebble-games/spell/keebble/"
 devlog: https://pandaqi.com/blog/boardgames/keebble/
 
 categories: ["ontwerpen", "programmeren", "schrijven"]

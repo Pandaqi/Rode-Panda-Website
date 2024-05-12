@@ -6,8 +6,8 @@ date: 2023-07-20
 thumb: photomone.webp
 color: 'brown'
 
-official: "https://pandaqi.com/photomone"
-devlog: https://pandaqi.com/blog/boardgames/photomone
+official: "https://pandaqi.com/photomone-games/draw/photomone/"
+devlog: https://pandaqi.com/blog/boardgames/photomone/
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website"]
