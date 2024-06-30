@@ -21,11 +21,13 @@
 
 img.sitewide-banner {
 	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
 img.banner-with-overlay {
 	position: absolute;
+	width: 100%;
 	z-index: -1;
 }
 
