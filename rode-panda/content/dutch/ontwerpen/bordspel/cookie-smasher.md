@@ -4,7 +4,7 @@ translationKey: "cookie_smasher"
 date: 2024-07-25
 
 thumb: cookie_smasher.webp
-color: 'white'
+color: "turquoise"
 
 official: "https://pandaqi.com/swiftsmash-saga/tap/cookie-smasher"
 devlog: https://pandaqi.com/blog/boardgames/swiftsmash-saga/cookie-smasher/
