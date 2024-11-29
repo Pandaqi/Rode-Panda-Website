@@ -6,8 +6,8 @@ date: 2025-05-26
 thumb: noble_flood.webp
 color: "pink"
 
-official: "https://pandaqi.com/noble-flood/"
-devlog: https://pandaqi.com/blog/boardgames/noble-flood/
+official: "https://pandaqi.com/chiptales/bet/noble-flood/"
+devlog: https://pandaqi.com/blog/boardgames/chiptales/noble-flood/
 
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]

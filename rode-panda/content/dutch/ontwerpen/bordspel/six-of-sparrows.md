@@ -6,8 +6,8 @@ date: 2026-01-26
 thumb: six_of_sparrows.webp
 color: 'brown'
 
-official: "https://pandaqi.com/six-of-sparrows/"
-devlog: https://pandaqi.com/blog/boardgames/six-of-sparrows/
+official: "https://pandaqi.com/chiptales/bet/six-of-sparrows/"
+devlog: https://pandaqi.com/blog/boardgames/chiptales/six-of-sparrows/
 
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
