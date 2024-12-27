@@ -39,6 +39,12 @@ It also means you only need to print most of the material once, which saves mone
 
 Hopefully you see why it was such a big undertaking. I had to write all the code, create the graphics, implement shared systems that would fit every single idea I had for a different vehicle. And then make and test each individual game, including its special rules and graphics.
 
+As always, to keep this manageable (for both me and the players), I used the "divide and conquer" approach on the project. The games are further subdivided into three types:
+
+* **Major Games**: the 5 most common vehicles. These are a great introduction to the idea. A middle ground in terms of complexity, playtime, etcetera.
+* **Minor Games**: less common vehicles that allow me to explore new approaches to the idea. These can be far simpler and shorter, or far more involved than the major games, but they still use the shared core/material.
+* **Standalones**: as expected, these stand on their own and can be _anything_. This is reserved for really weird vehicles (like Santa's sleigh) that are Naivigation "in spirit", but don't necessarily share rules.
+
 ### Wait, didn't you make Naivigation before?
 
 Yes! For years, an older (much worse) version of Naivigation was on my website. 
@@ -49,13 +55,13 @@ When testing it, I saw that it had great potential, but I also saw my current ex
 
 I wrote down "remake it, but much better and with different vehicles"
 
-Many years later, I had the frameworks, the experience, the knowledge to actually do this. I dove in and worked on "version 2.0" for a long time, in between other projects. You would barely recognize version 1 anymore---it was a completely rewrite of the entire game idea.
+Many years later, I had the frameworks, the experience, the knowledge to actually do this. I dove in and worked on "version 2.0" for a long time, in between other projects. You would barely recognize version 1 anymore---it was a complete rewrite of the entire game idea.
 
 Still, that first version wasn't wasted. It proved its potential. It also _showed_ me why many parts didn't work and how to change that.
 
 ### It's completely free and minimalist
 
-As always, I go for simple and minimalist. The material is just _cards_ and _tiles_. Easy to cut, use, store. 
+As always, I go for simple and minimalist. The material is just _cards_ and _tiles_. For _all_ games, and they're all the same size and general design. Easy to cut, use, store. 
 
 (I might be a bit radical here, as I already dislike games that have more than three different bits inside the box, and all those plastic thingies that make a game less elegant and more bulky. But still, it's a good ideal to have.)
 
@@ -63,4 +69,6 @@ As stated, shared material is reused. I save as much ink and paper as possible. 
 
 The rules for the base game are kept dead simple. Any variants, expansions, cool ideas---no matter how much I love them---are neatly moved to an optional expansion. (Most of which are also shared, usable in any version.)
 
-It was a lot of work. But I really believe this idea has a great balance between simplicity and accessibility, and depth and challenge, which is why I went all the way.
+It was a lot of work. But I really believe this idea has a great balance between simplicity and accessibility, and depth and challenge, which is why I went all the way. 
+
+When the series released, it contained about ~8 games (all Major games and some of the others). I'm pretty sure that amount will be doubled, maybe tripled, before I call this series of games completely done. As expected, that will take 2 or 3 years.
