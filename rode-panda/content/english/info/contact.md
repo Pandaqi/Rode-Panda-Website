@@ -17,7 +17,7 @@ hideUrl: true
 Interested in hiring me or collaborating for your next project? Mail me at the address below. 
 
 <div class="official-url contact-link">
-	<a href="mailto:tiamopastoor@gmail.com" class="contact-link">tiamopastoor@gmail.com</a>
+	<a href="mailto:harmonize@rodepanda.com" class="contact-link">harmonize@rodepanda.com</a>
 </div>
 
 ## Anything else?

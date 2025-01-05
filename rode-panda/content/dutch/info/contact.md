@@ -17,7 +17,7 @@ hideUrl: true
 Wilt u mij inhuren? Of heeft u een interessant project voor mij? Stuur een mail naar het adres hieronder.
 
 <div class="official-url contact-link">
-	<a href="mailto:tiamopastoor@gmail.com">tiamopastoor@gmail.com</a>
+	<a href="mailto:harmonize@rodepanda.com">harmonize@rodepanda.com</a>
 </div>
 
 ## Andere kanalen?
