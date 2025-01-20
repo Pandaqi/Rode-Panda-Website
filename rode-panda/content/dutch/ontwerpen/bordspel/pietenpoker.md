@@ -1,7 +1,7 @@
 ---
 title: "Pietenpoker"
 translationKey: "pietenpoker"
-date: 2025-15-05
+date: 2025-12-05
 
 thumb: pietenpoker.webp
 color: 'blue'
