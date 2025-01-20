@@ -9,7 +9,7 @@ color: 'red'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/soulselling/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["design"]
 tags: ["brand"]

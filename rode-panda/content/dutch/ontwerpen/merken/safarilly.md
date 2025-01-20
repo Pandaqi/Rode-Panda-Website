@@ -9,7 +9,7 @@ color: 'orange'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/safarilly/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["ontwerpen"]
 tags: ["merk"]

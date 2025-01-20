@@ -9,7 +9,7 @@ color: 'black'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/skribbull/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["design"]
 tags: ["brand"]

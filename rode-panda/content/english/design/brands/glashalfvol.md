@@ -9,7 +9,7 @@ color: 'pink'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/glashalfvol/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["design"]
 tags: ["brand"]

@@ -9,7 +9,7 @@ color: 'blue'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/clickbaitje/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["design"]
 tags: ["brand"]

@@ -10,7 +10,7 @@ color: 'red'
 resize: 2
 
 official: "https://nietdathetuitmaakt.nl"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["programmeren", "ontwerpen", "schrijven"]
 tags: ["website"]

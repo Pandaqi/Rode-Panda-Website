@@ -9,7 +9,7 @@ color: 'black'
 resize: 1
 
 official: "https://nietdathetuitmaakt.nl/product-categorie/dooddoeners/"
-layout: "horizontal"
+layoutDir: "horizontal"
 
 categories: ["ontwerpen"]
 tags: ["merk"]

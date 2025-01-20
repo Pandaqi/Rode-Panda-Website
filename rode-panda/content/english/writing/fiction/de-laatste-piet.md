@@ -1,5 +1,5 @@
 ---
-title: "De Last Pete and Their Fourty Fabrications"
+title: "The Last Pete and Their Forty Fabrications"
 translationKey: "de-laatste-piet"
 date: 2024-11-05
 
