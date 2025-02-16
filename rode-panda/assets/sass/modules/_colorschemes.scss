@@ -24,6 +24,7 @@ $colorschemes: (
 	"orange":  ("bg": #fc843c, "col": #492a03, "huerot": 15,  "border": #e68910, "bright": true),
 	"brown":   ("bg": #572f05, "col": #f9e1bc, "huerot": 0,   "border": #7f320c),
 	"grayscale":("bg": #303030, "col": #ECECEC, "huerot": 0, "border": gray, "gray": true),
+	"black":("bg": #303030, "col": #ECECEC, "huerot": 0, "border": gray, "gray": true), // synonym of grayscale
 	"beige": ("bg": #ffe0b0, col: #120c02, "huerot": 10, "border": #d2a96a, "bright": true )
 );
 
