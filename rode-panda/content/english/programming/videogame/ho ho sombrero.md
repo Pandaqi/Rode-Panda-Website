@@ -10,6 +10,7 @@ layoutDir: 'vertical'
 
 official: "https://pandaqi.com/ho-ho-sombrero"
 devlog: https://pandaqi.com/blog/videogames/game-jams/devlog-ho-ho-sombrero
+source: https://github.com/Pandaqi/Ho-Ho-Sombrero
 
 categories: ["programming", "design"]
 tags: ["videogame"]

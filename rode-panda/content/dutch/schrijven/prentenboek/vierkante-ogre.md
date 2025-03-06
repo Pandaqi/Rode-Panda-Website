@@ -6,6 +6,7 @@ date: 2021-02-24
 thumb: vierkanteogre.webp
 
 official: "https://pandaqi.com/square-ogre"
+source: "https://github.com/Pandaqi/Square-Ogre-Round-Ogre"
 
 layoutDir: 'horizontal'
 color: 'green'

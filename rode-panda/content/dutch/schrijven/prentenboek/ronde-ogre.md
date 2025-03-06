@@ -7,6 +7,7 @@ date: 2021-12-02
 thumb: roundogre.webp
 
 official: "https://pandaqi.com/round-ogre"
+source: "https://github.com/Pandaqi/Square-Ogre-Round-Ogre"
 
 color: 'green'
 resize: 1
