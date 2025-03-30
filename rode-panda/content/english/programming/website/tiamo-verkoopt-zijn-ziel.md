@@ -3,20 +3,20 @@ title: "Tiamo Sells His Soul"
 translationKey: "tiamoverkooptzijnziel"
 
 date: 2025-01-09
-ongoing: true
 
 thumb: tvzz.webp
 color: 'red'
-resize: 2
+resize: 1
 
 official: "https://nietdathetuitmaakt.nl"
 layoutDir: "horizontal"
+unfinished: true
 
 categories: ["programming", "design", "writing"]
 tags: ["website"]
 ---
 
-**Tiamo Sells His Soul** is the half-jokingly meant name of my **(mostly) Dutch webshop**. 
+**Tiamo Sells His Soul** was the half-jokingly meant name of my **(mostly) Dutch webshop**. 
 
 It was supposed to be my "testing ground" for how to build and run an online store. Keep it small, focus only on the Netherlands (and thus Dutch merchandise), use an old domain of mine that would expire in a few months anyway. With the lessons learned, and the experience gained, I would build my "actual" webshop later that year.
 
@@ -30,4 +30,4 @@ Within a few weeks, it already contained 100 unique designs/products made specif
 
 You can find more info about the individual brands on this portfolio too. Each of them was large and valuable enough to warrant its own page.
 
-I don't know how long it will stay online. At some point, its content will probably transfer to that "actual, international webshop". For now, it's a nice online store to try and earn an income from my many, many creative works.
+This "test online store" stayed online until the website domain expired, and I had transfered the most valuable products to that larger webshop (which launched not much later).

@@ -3,20 +3,20 @@ title: "Tiamo Verkoopt Zijn Ziel"
 translationKey: "tiamoverkooptzijnziel"
 
 date: 2025-01-09
-ongoing: true
 
 thumb: tvzz.webp
 color: 'red'
-resize: 2
+resize: 1
 
 official: "https://nietdathetuitmaakt.nl"
 layoutDir: "horizontal"
+unfinished: true
 
 categories: ["programmeren", "ontwerpen", "schrijven"]
 tags: ["website"]
 ---
 
-**Tiamo Verkoopt Zijn Ziel** is de half-grappend bedoelde naam van mijn **(voornamelijk) Nederlandse webshop**.
+**Tiamo Verkoopt Zijn Ziel** was de half-grappend bedoelde naam van mijn **(voornamelijk) Nederlandse webshop**.
 
 Het was origineel bedoeld als "test" om te leren hoe je zoiets complex als een online shop runt. Houd het klein, focus alleen op Nederland (en dus Nederlands taalgebruik en verzending), gebruik een oud domein dat ik toch al heb maar over een paar maanden verloopt. Met de geleerde lessen, en opgebouwde ervaring, zou ik dan _later_ (dat jaar) mijn "echte" webshop beginnen.
 
@@ -30,4 +30,4 @@ Binnen enkele weken bevatte de shop al 100 unieke designs/producten die ik speci
 
 Je kan meer informatie vinden over deze individuele merken op dit portfolio. Elke daarvan werd groot en waardevol genoeg om een eigen pagina te krijgen.
 
-Ik weet niet hoe lang deze webshop online blijft. Er zal een punt zijn waarop alle (meest waardevolle) inhoud zich verplaatst naar die "echte" (internationale) webshop. Voor nu is dit een mooie eerste webshop waarmee ik hoop eindelijk wat betrouwbaar inkomen te krijgen uit mijn vele, vele creatieve werken.
+Deze "test webshop" bleef online totdat het domein verliep en ik de meest waardevolle producten had overgezet naar de grotere webshop (die niet veel later lanceerde).
