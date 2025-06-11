@@ -17,7 +17,7 @@
 
     <!-- Only load critical CSS first, rest comes after it (external spritesheet) -->
     {{ $options := (dict "targetPath" "css/critical.css" "outputStyle" "compressed" "transpiler" "dartsass") }}
-    {{ $crit_style := resources.Get "sass/critical.scss" | resources.ToCSS $options | minify }}
+    {{ $crit_style := resources.Get "sass/critical.scss" | css.Sass $options | minify }}
     <link rel="stylesheet" type="text/css" href="{{ $crit_style.RelPermalink }}">
 
     <link rel="icon"  type="image/png" href="{{ .Site.Params.favicon | absURL }}">

@@ -2,13 +2,14 @@ baseurl         = "https://rodepanda.com"
 theme           = "rodepanda"
 title       	= "Rode Panda | Portfolio"
 languageCode    = "en-US"
-disqusShortname = ""
-paginate        = 30
 summaryLength 	= 18
 SectionPagesMenu = "main"
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
+
+[pagination]
+  pagerSize = 30
 
 [languages]
   [languages.nl]
