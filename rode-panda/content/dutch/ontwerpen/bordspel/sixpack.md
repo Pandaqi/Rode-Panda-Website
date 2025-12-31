@@ -5,7 +5,6 @@ date: 2023-10-20
 
 thumb: sixpack.webp
 color: 'purple'
-resize: 2
 
 official: "https://pandaqi.com/the-outnumbered-series/count-to/sixpack/"
 devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/sixpack/

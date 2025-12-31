@@ -9,8 +9,6 @@ color: 'red'
 official: "https://pandaqi.com/the-outnumbered-series/count-to/nine-lives"
 devlog: https://pandaqi.com/blog/boardgames/the-outnumbered-series/nine-lives
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

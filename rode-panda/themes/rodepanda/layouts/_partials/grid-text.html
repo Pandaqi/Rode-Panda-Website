@@ -1,5 +1,7 @@
 <div class="grid-item item-resize-landscape item-text-container" style='order: {{ .context.Scratch.Get "counter"}}'>
 	<div class="text-block {{ .message }}">
-		{{ i18n .message | safeHTML }}
+		<div class="text-container">
+			{{ i18n .message | safeHTML }}
+		</div>
 	</div>
 </div>

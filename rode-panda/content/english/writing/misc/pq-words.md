@@ -6,7 +6,6 @@ ongoing: true
 
 thumb: pq_words.webp
 color: 'beige'
-resize: 2
 
 official: "https://github.com/pandaqi/pq-words"
 

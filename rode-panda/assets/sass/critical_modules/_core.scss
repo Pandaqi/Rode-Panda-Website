@@ -1,7 +1,14 @@
 @use "critical_modules/globals" as g;
 
+*
+{
+	box-sizing: border-box;
+}
+
 /* General (body) */
 body {
+	padding: 0px;
+	margin: 0px;
 	font-size: 21px;
 	font-family: g.$body-font-stack;
 	background-color: #492c1d; /*#705445;*/
@@ -12,6 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: g.$header-font-stack;
 	font-weight: 500;
+	margin-bottom: 0px;
 }
 
 h1 {

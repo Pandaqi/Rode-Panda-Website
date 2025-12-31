@@ -6,7 +6,7 @@ ongoing: true
 
 thumb: tiamopastoor.webp
 color: 'green'
-resize: 2
+resize: 3
 
 official: "https://tiamopastoor.com"
 source: https://github.com/Pandaqi/Tiamo-Pastoor

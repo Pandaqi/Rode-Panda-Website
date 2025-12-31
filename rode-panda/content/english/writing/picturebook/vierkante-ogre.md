@@ -10,7 +10,7 @@ official: "https://pandaqi.com/square-ogre"
 source: https://github.com/Pandaqi/Square-Ogre-Round-Ogre
 
 color: 'green'
-resize: 2
+resize: 3
 
 categories: ["writing", "design", "programming"]
 tags: ["picturebook", "videogame", "published", "fiction"]

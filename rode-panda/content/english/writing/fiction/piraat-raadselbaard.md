@@ -6,7 +6,6 @@ date: 2023-05-11
 thumb: piraat_raadselbaard.webp
 color: 'blue'
 layoutDir: 'horizontal'
-resize: 2
 
 official: "https://tiamopastoor.com/books/piraat-raadselbaard"
 

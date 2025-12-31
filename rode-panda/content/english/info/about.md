@@ -20,73 +20,34 @@ My real name is _Tiamo Pastoor_. I was born in 1997 and I don't have any good pi
 
 This page could list all my achievements and praise me into the heavens ... but that's just not who I am. 
 
+## Workflow & Personality
+
 I care about **honesty**, **activity** and **kindness**.
 
-As such, the content of this page is completely honest. To understand me, you need to understand just one thing.
+Even tiny little lies are not accepted. I'll always honestly say if I haven't done something, or if I think something's not good enough, but also expect others to do the same. If you lie to me or keep back information (repeatedly), even if your intentions are good, I'm gone.
 
-> I have lost the ability to enjoy or want things. So, what do you do? I've learned to keep myself active at all times and focus on the one thing that can still get me excited: **creating stuff**.
+I am absolutely _not_ the kind of artist who sits in his chair waiting for inspiration to strike, or for that "perfect idea" to arrive. I work hard, every day, with the same amount of effort and attempts at creating something.
 
-## You can't enjoy things?
+It also means I might go down paths that don't make sense at first sight, that I make mistakes, that I'll show versions that are raw and unpolished. And yes, there are days when all the effort in the world still won't find solutions to your creative problems, or when your brain is simply too tired.
 
-Yes, it's that simple. I'm not motivated by money, or food, or whatever goal. I'm not happy when I go to bed, nor am I happy when I wake up. I've just lost the sense of wanting something or enjoying it.
+But I know from experience: if you simply put in the same _effort_ each day, then everything will be done. And surprisingly quickly.
 
-Why we're in this situation isn't that important. Yes, I've visited many specialists for years, who all said the same thing. I'm already doing all the right things (staying active, staying positive) and they hope that the feeling returns at some point.
+At the end of the day, we're all humans here. I have to ask money for my work because I need food on the table, but I'd do it all for free if I had a choice. I want t help you create your dream projects, but health and kindness will always have more priority than whatever end result our collaboration produces.
 
-That's how I "solve" the situation. I am _always_ doing something. I just create, create, create. Trying to capture the tiny spark that is left, trying to create whatever innovative projects I can.
+When we're on our death bed, we'd like to think we did something good and added kindness to the world, don't we? The idea that maybe we could've made more money or worked even harder instead will seem absurd then. 
 
-That is all I care about. I don't care for money, fame or status. I pick quantity over quality, though I also know that quantity _leads_ to quality. I just want to _create, create, create_ until I can't anymore. 
+This is my portfolio, though, and not my personal page! As such, for more details, background, work, opinions, and anything else, I refer you to [Tiamo Pastoor](https://tiamopastoor.com).
 
-To see a group of people enjoy a game I invented? To hear somebody excited about a book of mine? To invent new ideas, which prompt others to get inspired and innovate as well? That is, perhaps, the only thing that could still make me happy.
+## Common Sense Terms
 
-## Hypercreativity
+Of course, the ideal "terms and conditions" depend on the project and your offer to me. I understand very well that different projects lead to different "design constraints". When designing a wheel for a car you really don't want to use the same process as when designing a wheel for an office chair!
 
-Why does "creating stuff" still make me happy? I guess the answer is simply that I'm a hypercreative person. At heart, since birth. 
+In general, though, I maintain the following principles.
 
-If I can't _invent_, if I can't _create_, it feels like dying inside. The only thing that gets me out of bed is the possibility of creating something new that day. Something that didn't exist before. A game that provides a new way to have fun together. A story that has the best plot twist ever.
-
-That's also why I'm drawn to crazy, innovative projects. Which, honestly, only work out half the time.
-
-## What are the consequences?
-
-Well, I think everything I make is _shit_. You won't hear any positive comments from me about my own work. I just create it, finish it, then give it to _others_ to (maybe) enjoy.
-
-I am always honest and won't let emotions guide me. I won't pretend something excites me, because it doesn't! If I catch somebody being dishonest, I am gone. I will do the thing that has the best arguments supporting it, not the thing the person with the most power tries to force on me.
-
-Losing my ability to want things for myself also allows me to focus on doing what I believe is "right". I'm not an activist by any means. In fact, you'll barely hear from me on any touchy subjects---because I couldn't be bothered! I just try to constantly make decisions that are _kind_ and are, rationally, the _better option_.
-
-It also means I can't be motivated to do something that isn't creative, innovative or smart, just by saying "but it's less risky" or "it makes more money".
-
-I actually have a degree in Applied Mathematics. But I won't ever use it just to get a "steady job" that would kill me inside. I could pump out clones of mobile games, or risk-free romance novels, but I'll never do it.
-
-## The biggest consequence
-
-Most of all? When you've seen the filth of the world and been stripped down until nothing's left, you realize what truly matters.
-
-Just be kind. 
-
-And _do something_ every day.
-
-The purpose of life is simply to live it and help others live it. So just _do something_ every day and don't let your ego destroy the ability of _others_ to enjoy their day. Fail faster. Make more mistakes and you'll grow faster.
-
-The size of this portfolio isn't to gloat or to impress. As you now know, I truly don't care. It's simply to show this philosophy and the only way I can see my life. It's to keep order and structure in my chaotic mess of creative endeavors.
-
-## Who I am
-
-Finally, let's end on a fun note by giving some details about myself.
-
-I'm a hugger. My taste buds, unfortunately, prefer unhealthy food and anything that is _not_ the typical Dutch cuisine.
-
-Chronic health issues force me to exercise _a lot_. But that's fine, because that allows me to eat more calories ;)
-
-A consequence of so much physical activity is that I also _sleep a lot_.
-
-This means my days are rather short. I just don't have a lot of hours for work, which means I have to make them _count_. When I work, I work! My smartphone is off. My Wi-Fi is probably off. I only check my messages or email once a day. 
-
-I'm pretty old-school. I don't multitask, I have an old and broken computer with just one thing open at a time, and I still do a lot through handwritten notes. Even though I grew up with internet and smartphones, I never fully embraced the parts of it that I deem useless or evil. 
-
-So yes, I'm the silly person who leaves his home _without_ his smartphone. I'm the clueless person who only learns about major gossip a week later ... because somebody happens to tell me in-person. I'm the boring person who says things like "I've already stared at a screen for five hours, I'm not going to look at one any longer".
-
-I'm also the person who makes time for others, is fully in the moment, and can make creative _magic_ happen if you give me some time.
+* **Clarity & Communication**. Everything is clearly communicated and written down. The vast majority of wasted time and money comes from things "only verbally agreed upon", or simply _never_ communicated at all, forcing me to make assumptions. If needed, I'll keep asking questions until I get those details out of my employer and hope you don't mind ;) In the same way, you should tell _me_ to be more specific when, say, I send an invoice that's not 100% correct.
+* **No fixed rates.** This might ruin your whole world view, but _money is subjective_. The exact same work can be worth more or less money if done at a different time or in different circumstances. There is no "proper rate" or "sensible cost" to, say, designing a website. I will ask the monetary amount that I, at that moment, looking at the project, _need to survive_. Like most people!
+* **Half now, half later.** It's the only sensible split of risk in my eyes. I'll ask half the agreed upon pay at the start, and you only need to pay the other half when all is done and to your satisfaction.
+* **Everything needs time and iteration.** I've made 200+ board games and _still_ can't create a game that's even 100% done or playable in _a single try_ (especially not with _time pressure_). Everything in this wereld starts with a terrible, ugly first version, which is your starting point for iterating, iterating, iterating. That takes time. That requires time off too, allowing your brain to recharge and find new solutions. Thus, I will say so when I think an assignment simply can't be done in the given time frame (or other constraints), and pass on it.
 
 ## My other websites
 
@@ -94,7 +55,8 @@ To keep things clean and simple, I've created separate websites for each of my m
 
 Visit them using the links below.
 
-* [Tiamo Pastoor](https://tiamopastoor.com) for al my writing
+* [The Wayward Melody](https://thewaywardmelody.com) for my large, international, educational online store that sells everything I ever made.
+* [Tiamo Pastoor](https://tiamopastoor.com) for all my writing
 * [Pandaqi](https://pandaqi.com) for all my games
 * [Pandaqi Tutorials](https://pandaqi.com/tutorials) for all my free educational courses
 * [El Troubadour](https://eltroubadour.com) for all my musical work

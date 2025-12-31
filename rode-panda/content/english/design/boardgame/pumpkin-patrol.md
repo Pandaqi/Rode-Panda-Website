@@ -9,8 +9,6 @@ color: 'purple'
 official: "https://pandaqi.com/pumpkin-patrol/"
 devlog: https://pandaqi.com/blog/boardgames/pumpkin-patrol/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

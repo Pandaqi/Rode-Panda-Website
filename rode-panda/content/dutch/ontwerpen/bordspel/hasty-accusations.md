@@ -9,8 +9,6 @@ color: 'black'
 official: "https://pandaqi.com/hasty-accusations/"
 devlog: https://pandaqi.com/blog/boardgames/hasty-accusations/
 
-resize: 2
-
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
 ---

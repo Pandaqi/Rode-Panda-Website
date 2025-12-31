@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "GlasHalfVol Merk"
 translationKey: "glashalfvol"
 

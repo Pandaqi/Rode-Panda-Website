@@ -9,8 +9,6 @@ color: 'pink'
 official: "https://pandaqi.com/easter-eggventures/"
 devlog: https://pandaqi.com/blog/boardgames/easter-eggventures/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

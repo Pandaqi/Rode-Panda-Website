@@ -5,7 +5,6 @@ date: 2021-11-27
 
 thumb: windowsilk.webp
 color: 'orange'
-resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/windowsilk"

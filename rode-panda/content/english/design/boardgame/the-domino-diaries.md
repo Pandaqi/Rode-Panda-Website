@@ -9,8 +9,6 @@ color: 'red'
 official: "https://pandaqi.com/the-domino-diaries/"
 devlog: https://pandaqi.com/blog/boardgames/the-domino-diaries/
 
-resize: 3
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

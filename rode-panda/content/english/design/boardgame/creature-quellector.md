@@ -9,8 +9,6 @@ color: 'green'
 official: "https://pandaqi.com/waitless-games/play/creature-quellector"
 devlog: https://pandaqi.com/blog/boardgames/waitless-games/creature-quellector/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

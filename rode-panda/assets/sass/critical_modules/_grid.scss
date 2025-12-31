@@ -9,7 +9,8 @@
 	justify-content: center;
 	grid-gap: g.$grid-gap + 0px;
 
-	@media all and (max-width: g.$cutoff3) {
+	@media all and (max-width: g.$cutoff3) 
+	{
 		grid-template-columns: repeat(auto-fit, g.$small-grid-item-size + 0px);
 	}
 
@@ -33,29 +34,34 @@
 		}
 	}
 
-	@mixin icon($offset:0) {
+	@mixin icon($offset:0) 
+	{
 		background-position-x: $offset;
 	}
 	
 	/* Resize classes */
-	@mixin resize($val: 1) {
+	@mixin resize($val: 1) 
+	{
 		width: g.$grid-item-size * $val + g.$grid-gap * ($val - 1) + 0px;
 		height: g.$grid-item-size * $val + g.$grid-gap * ($val - 1) + 0px;
 	
 		grid-column: span $val;
 		grid-row: span $val;
 
-		.grid-item-metadata {
+		.grid-item-metadata 
+		{
 			font-size: (0.5 * $val) + 0em;
 		}
 
-		@media all and (max-width: g.$cutoff3) {
+		@media all and (max-width: g.$cutoff3) 
+		{
 			width: g.$small-grid-item-size * $val + g.$small-grid-gap * ($val - 1) + 0px;
 			height: g.$small-grid-item-size * $val + g.$small-grid-gap * ($val - 1) + 0px;
 		}
 	}
 	
-	@mixin resize_asym($x: 1, $y: 1) {
+	@mixin resize_asym($x: 1, $y: 1) 
+	{
 		width: g.$grid-item-size * $x + g.$grid-gap * ($x - 1) + 0px;
 		height: g.$grid-item-size * $y + g.$grid-gap * ($y - 1) + 0px;
 	
@@ -64,7 +70,8 @@
 		
 		background-size: (math.div(600, $x) + 0%) (math.div(100, $y) + 0%) !important;		/* 3,2 => 200% 50% */
 
-		@media all and (max-width: g.$cutoff3) {
+		@media all and (max-width: g.$cutoff3) 
+		{
 			width: g.$small-grid-item-size * $x + g.$small-grid-gap * ($x - 1) + 0px;
 			height: g.$small-grid-item-size * ($y+1) + g.$small-grid-gap * ($y + 1 - 1) + 0px;
 

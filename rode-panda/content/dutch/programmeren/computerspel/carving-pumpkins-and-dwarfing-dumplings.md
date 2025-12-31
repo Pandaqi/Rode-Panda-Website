@@ -5,7 +5,6 @@ date: 2021-11-03
 
 thumb: carvingpumpkins.webp
 color: 'brown'
-resize: 2
 layoutDir: 'vertical'
 
 official: "https://pandaqi.com/carving-pumpkins-and-dwarfing-dumplings"

@@ -9,8 +9,6 @@ color: 'brown'
 official: "https://pandaqi.com/split-the-foody"
 devlog: https://pandaqi.com/blog/boardgames/split-the-foody/
 
-resize: 2
-
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
 ---

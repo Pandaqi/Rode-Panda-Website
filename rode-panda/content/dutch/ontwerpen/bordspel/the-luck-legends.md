@@ -9,8 +9,6 @@ color: 'brown'
 official: "https://pandaqi.com/the-luck-legends/"
 devlog: https://pandaqi.com/blog/boardgames/the-luck-legends/
 
-resize: 3
-
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
 ---

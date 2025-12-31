@@ -11,7 +11,6 @@ devlog: "https://pandaqi.com/blog/boardgames/throneless-games/"
 
 categories: ["design", "programming", "writing"]
 tags: ["boardgame", "website", "editorial"]
-resize: 2
 ---
 
 The _Throneless Games_ is a project containing 4 board games.

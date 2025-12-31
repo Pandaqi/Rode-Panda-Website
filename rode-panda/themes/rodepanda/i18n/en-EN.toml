@@ -3,13 +3,14 @@
 	other = "My latest project is "
 
 [home-message-1]
-	other = '<p>This is the portfolio of <a href="/en/info/about">Red Panda!</a></p><p>Take a journey through my numerous works.</p><p>Or <a href="/en/info/contact">contact me</a> for your next project.</p>'
+	other = '''
+	<p>Welcome to <a href="/en/info/about">Red Panda</a>'s portfolio! This home page is just a glimpse.</p><p>Take a journey through my numerous works concerning <a href="/en/categories/writing">Writing</a>, <a href="/en/categories/programming">Programming</a>, <a href="/en/categories/design">Design</a>, and <a href="/en/categories/music">Music</a>.</p><p>Or <a href="/en/info/contact">contact me</a> for your next project.</p>
+'''
 
 [home-message-2]
-	other = '<p>I help with ...</p><ul><li><a href="/en/categories/writing">Writing</a></li><li><a href="/en/categories/programming">Programming</a></li><li><a href="/en/categories/design">Design</a></li><li><a href="/en/categories/music">Music</a></li></ul><p>Games (analog or digital) and Books are my biggest areas of expertise.</p>'
-
-[home-message-3]
-	other = '<p>This website connects <em>all</em> my work. Each page is a summary and a link to the &ldquo;official page&rdquo;.</p><p>I have separate websites for each major area:</p><ul><li><a href="https://tiamopastoor.com">Writing (Tiamo Pastoor)</a></li><li><a href="https://pandaqi.com">Games (Pandaqi)</a></li><li><a href="https://eltroubadour.com">Music (El Troubadour)</a></li></ul>'
+	other = '''
+	<p>This place connects all my work. Each page is a summary that links to the &ldquo;official page&rdquo;.</p><p>You can also visit the official websites for each major area: <a href="https://tiamopastoor.com">Writing (Tiamo Pastoor)</a>, <a href="https://pandaqi.com">Games (Pandaqi)</a>, <a href="https://eltroubadour.com">Music (El Troubadour)</a>, and my large <a href="https://thewaywardmelody.com">Online Store (The Wayward Melody)</a>.</p>
+'''
 
 # Misc
 [no-results-message]

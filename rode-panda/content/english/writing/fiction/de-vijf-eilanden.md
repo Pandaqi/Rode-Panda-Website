@@ -6,7 +6,6 @@ date: 2023-03-01
 thumb: de_vijf_eilanden.webp
 color: 'red'
 layoutDir: 'horizontal'
-resize: 2
 
 official: "https://tiamopastoor.com/books/de-vijf-eilanden"
 

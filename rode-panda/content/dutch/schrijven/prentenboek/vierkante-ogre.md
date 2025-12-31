@@ -10,7 +10,7 @@ source: "https://github.com/Pandaqi/Square-Ogre-Round-Ogre"
 
 layoutDir: 'horizontal'
 color: 'green'
-resize: 2
+resize: 3
 
 categories: ["schrijven", "ontwerpen", "programmeren"]
 tags: ["prentenboek", "computerspel", "gepubliceerd", "uitvinding", "fictie"]

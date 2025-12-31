@@ -9,8 +9,6 @@ color: 'green'
 official: "https://pandaqi.com/maybe-games/"
 devlog: https://pandaqi.com/blog/boardgames/maybe-games/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

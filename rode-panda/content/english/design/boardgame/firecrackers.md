@@ -9,8 +9,6 @@ color: 'red'
 official: "https://pandaqi.com/firecrackers/"
 devlog: https://pandaqi.com/blog/boardgames/firecrackers/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---

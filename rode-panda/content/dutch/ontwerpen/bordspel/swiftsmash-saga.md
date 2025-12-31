@@ -9,8 +9,6 @@ color: 'green'
 official: "https://pandaqi.com/swiftsmash-saga/"
 devlog: https://pandaqi.com/blog/boardgames/swiftsmash-saga/
 
-resize: 2
-
 categories: ["ontwerpen", "programmeren"]
 tags: ["bordspel", "website"]
 ---

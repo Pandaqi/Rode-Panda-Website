@@ -9,8 +9,6 @@ color: 'pink'
 official: "https://pandaqi.com/the-game-of-happiness/"
 devlog: https://pandaqi.com/blog/boardgames/the-game-of-happiness/
 
-resize: 2
-
 categories: ["design", "programming"]
 tags: ["boardgame", "website"]
 ---
