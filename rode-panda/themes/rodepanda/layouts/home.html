@@ -2,7 +2,7 @@
 
 <nav class="grid">
 	{{ $num_tiles := 40 }}
-	{{ $full_list := .Site.RegularPages | shuffle | first $num_tiles }}
+	{{ $full_list := .Site.RegularPages | first $num_tiles }}
 	{{ $counter_jump_size := 5 }}
 	{{ $counter := $counter_jump_size }}
 	{{ range $full_list }}
